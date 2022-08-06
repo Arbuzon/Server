@@ -3,10 +3,10 @@
 # with caution, and make sure you know what each option does before configuring.
 # For a reference for any variable inside this file, check out the Spigot wiki at
 # http://www.spigotmc.org/wiki/spigot-configuration/
-# 
+#
 # If you need help with the configuration or have any questions related to Spigot,
 # join us at the IRC or drop by our forums and leave a post.
-# 
+#
 # IRC: #spigot @ irc.spi.gt ( http://www.spigotmc.org/pages/irc/ )
 # Forums: http://www.spigotmc.org/
 
@@ -33,12 +33,12 @@ settings:
     attackDamage:
       max: 2048.0
 messages:
-  whitelist: You are not whitelisted on this server!
+  whitelist: Вы не можете войти на этот сервер!
   unknown-command: Unknown command. Type "/help" for help.
-  server-full: The server is full!
+  server-full: Сервер переполнен!
   outdated-client: Outdated client! Please use {0}
   outdated-server: Outdated server! I'm still on {0}
-  restart: Server is restarting
+  restart: Перезагрузка Сервера
 stats:
   disable-saving: false
   forced-stats: {}
