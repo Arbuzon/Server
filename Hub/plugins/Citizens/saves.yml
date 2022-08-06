@@ -1,0 +1,83 @@
+# Citizens NPC Storage
+
+last-created-npc-id: 1
+npc:
+  '1':
+    metadata:
+      cached-skin-uuid-name: fastprocessor
+      cached-skin-uuid: e7683172-5328-4e36-8961-2d0951a46510
+    name: Инофрмация о сервере §e§lMagma§c§lCube
+    uuid: 79ffce39-5a48-4b8e-8d9c-6f573bd224cc
+    traits:
+      owner:
+        uuid: 4569fc2c-925c-366e-91eb-2148bf6386fe
+      hologramtrait:
+        direction: BOTTOM_UP
+        lineHeight: -1.0
+      commandtrait:
+        cost: -1.0
+        executionMode: LINEAR
+        experienceCost: -1.0
+        hideErrorMessages: false
+      location:
+        bodyYaw: 93.07521
+        world: world
+        x: '89.4384'
+        y: '121.0'
+        z: '167.5118'
+        yaw: '102.5244'
+        pitch: '11.8128'
+      sneak:
+        sneaking: false
+      type: PLAYER
+      skintrait:
+        fetchDefaultSkin: true
+        signature: hZ3vr24UiBgEURyoGKhvh1OiQ82ZSPiyXwAbZY/eQY2gD8hv7Hrr7VU4VNxvIverTYxZk4B8oO3Hhx4m7wz07mdfHcT7u3yew6XdeBKG+u1DIOUTb3kTohArOO95Hwxje94yfUJysD1GD9FYkmenQ2KXhTtsKteJyPLIismBwtYIC436P+h3F5UsiScMxgWZGNqFD4toIJfGcj2gDjMkawJTMi8k0u1WVhjrzWPzC8UB3xWy28HoY/N66gR8/kL+bj2Vu6GklAFARaLwiO9JXpRbIcGgH0gr9f46SWRDdlumB5QpJV/W/TjC1RuQFtB1GYZZXm3H5Duvij0yCUYs5ySX4z8xxB3izp0pjxj6etqS5aBd6UUa0olSD3Y4mpi5MW6jYZBRtuH9R7aF4ck/cdvb5WDD2QwVrohISYHxARAll6nELH8n86mPhjHC3FcgACkCvNg/Asi3+DW2B/VJoxyszhMV8B9z0afzqwcMs3d48XFFab2E4rx+zgPuPeGHDaii03JFJaLLxgw3UFVZKCZk8YZfdInxf/7P/pZfQyz7ziyditY9kQrkyWXMQ8MTklxIl2Ac6TQWwGN80LtPNyIIQ3tA1hkw1l91xQkTfBhJhEpCadHrnVeaq07tqkZ4i+/yk7BXrThUxqvX0q7V7iGIBEFM4/pfAktCF1YMNxA=
+        skinName: fastprocessor
+        textureRaw: ewogICJ0aW1lc3RhbXAiIDogMTYzODc3MTgwNTg5MSwKICAicHJvZmlsZUlkIiA6ICJlNzY4MzE3MjUzMjg0ZTM2ODk2MTJkMDk1MWE0NjUxMCIsCiAgInByb2ZpbGVOYW1lIiA6ICJGYXN0UHJvY2Vzc29yIiwKICAic2lnbmF0dXJlUmVxdWlyZWQiIDogdHJ1ZSwKICAidGV4dHVyZXMiIDogewogICAgIlNLSU4iIDogewogICAgICAidXJsIiA6ICJodHRwOi8vdGV4dHVyZXMubWluZWNyYWZ0Lm5ldC90ZXh0dXJlLzUxMjNlYzNkYWNhZmZlZDZkNjRiNmYwNDM3MDk1MDJmYjJkYWUxNjg3NjI4NzAyYWZlMDMzNDMwMzNjNDQ1ZTkiLAogICAgICAibWV0YWRhdGEiIDogewogICAgICAgICJtb2RlbCIgOiAic2xpbSIKICAgICAgfQogICAgfQogIH0KfQ==
+        updateSkins: false
+      spawned: true
+      lookclose:
+        range: '5.0'
+        disablewhilenavigating: true
+        enabled: true
+        enableRandomLook: false
+        randomLookDelay: 60
+        realisticlooking: false
+        randomPitchRange:
+          '0': -10.0
+          '1': 0.0
+        randomYawRange:
+          '0': 0.0
+          '1': 360.0
+    traitnames: hologramtrait,lookclose,spawned,scoreboardtrait,location,skintrait,equipment,inventory,mounttrait,commandtrait,type,sneak,owner
+    navigator:
+      speedmodifier: '1.0'
+      avoidwater: false
+      usedefaultstuckaction: true
+  '0':
+    name: §e Выбор сервера
+    uuid: f0cd2701-4514-4b7a-bbae-295c21fcdb16
+    traits:
+      owner:
+        uuid: 4569fc2c-925c-366e-91eb-2148bf6386fe
+      sneak:
+        sneaking: false
+      type: PLAYER
+      skintrait:
+        fetchDefaultSkin: true
+        updateSkins: false
+      spawned: false
+      location:
+        bodyYaw: 1.1028755
+        world: world
+        x: '72.6122'
+        y: '63.0'
+        z: '184.5278'
+        yaw: '1.1029'
+        pitch: '46.3499'
+    traitnames: mounttrait,type,scoreboardtrait,sneak,spawned,location,equipment,skintrait,inventory,owner
+    navigator:
+      speedmodifier: '1.0'
+      avoidwater: false
+      usedefaultstuckaction: true

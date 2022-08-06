@@ -1,0 +1,865 @@
+[12-04 15:57:56]: [INFO] Created column 'regdate' and set the current timestamp, 1638608276203, to all 0 rows
+[12-04 15:57:56]: [INFO] SQLite Setup finished
+[12-04 15:57:56]: [INFO] No supported permissions system found! Permissions are disabled!
+[12-04 15:57:56]: [INFO] AuthMe 5.6.0-beta2 build n.2453 successfully enabled!
+[12-04 15:57:56]: [INFO] Downloading GEO IP database, because the old database is older than 30 days or doesn't exist
+[12-04 15:57:57]: [WARN] No MaxMind credentials found in the configuration file! GeoIp protections will be disabled.
+[12-04 15:57:57]: [INFO] There is no newer GEO IP database uploaded to MaxMind. Using the old one for now.
+[12-04 15:57:57]: [WARN] Could not download GeoLiteAPI database [FileNotFoundException]: plugins\AuthMe\GeoLite2-Country.mmdb (Не удается найти указанный файл)
+[12-04 15:57:57]: java.io.FileNotFoundException: plugins\AuthMe\GeoLite2-Country.mmdb (Не удается найти указанный файл)
+	at java.io.RandomAccessFile.open0(Native Method)
+	at java.io.RandomAccessFile.open(Unknown Source)
+	at java.io.RandomAccessFile.<init>(Unknown Source)
+	at fr.xephi.authme.libs.com.maxmind.db.BufferHolder.<init>(BufferHolder.java:20)
+	at fr.xephi.authme.libs.com.maxmind.db.Reader.<init>(Reader.java:121)
+	at fr.xephi.authme.service.GeoIpService.startReading(GeoIpService.java:173)
+	at fr.xephi.authme.service.GeoIpService.updateDatabase(GeoIpService.java:144)
+	at org.bukkit.craftbukkit.v1_16_R3.scheduler.CraftTask.run(CraftTask.java:101)
+	at org.bukkit.craftbukkit.v1_16_R3.scheduler.CraftAsyncTask.run(CraftAsyncTask.java:54)
+	at com.destroystokyo.paper.ServerSchedulerReportingWrapper.run(ServerSchedulerReportingWrapper.java:22)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+
+[12-04 15:58:37]: [FINE] Arbuzon registered 127.0.0.1
+[12-04 15:58:37]: [FINE] Arbuzon logged in 127.0.0.1
+[12-04 16:01:20]: [INFO] Arbuzon was unregistered by CONSOLE
+[12-04 16:03:41]: [INFO] AuthMe 5.6.0-beta2-b2453 disabled!
+[12-04 16:12:48]: [INFO] SQLite Setup finished
+[12-04 16:12:48]: [INFO] No supported permissions system found! Permissions are disabled!
+[12-04 16:12:49]: [INFO] AuthMe 5.6.0-beta2 build n.2453 successfully enabled!
+[12-04 16:12:49]: [INFO] Downloading GEO IP database, because the old database is older than 30 days or doesn't exist
+[12-04 16:12:49]: [WARN] No MaxMind credentials found in the configuration file! GeoIp protections will be disabled.
+[12-04 16:12:49]: [INFO] There is no newer GEO IP database uploaded to MaxMind. Using the old one for now.
+[12-04 16:12:49]: [WARN] Could not download GeoLiteAPI database [FileNotFoundException]: plugins\AuthMe\GeoLite2-Country.mmdb (Не удается найти указанный файл)
+[12-04 16:12:49]: java.io.FileNotFoundException: plugins\AuthMe\GeoLite2-Country.mmdb (Не удается найти указанный файл)
+	at java.io.RandomAccessFile.open0(Native Method)
+	at java.io.RandomAccessFile.open(Unknown Source)
+	at java.io.RandomAccessFile.<init>(Unknown Source)
+	at fr.xephi.authme.libs.com.maxmind.db.BufferHolder.<init>(BufferHolder.java:20)
+	at fr.xephi.authme.libs.com.maxmind.db.Reader.<init>(Reader.java:121)
+	at fr.xephi.authme.service.GeoIpService.startReading(GeoIpService.java:173)
+	at fr.xephi.authme.service.GeoIpService.updateDatabase(GeoIpService.java:144)
+	at org.bukkit.craftbukkit.v1_16_R3.scheduler.CraftTask.run(CraftTask.java:101)
+	at org.bukkit.craftbukkit.v1_16_R3.scheduler.CraftAsyncTask.run(CraftAsyncTask.java:54)
+	at com.destroystokyo.paper.ServerSchedulerReportingWrapper.run(ServerSchedulerReportingWrapper.java:22)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+
+[12-04 16:13:20]: [FINE] Arbuzon registered 127.0.0.1
+[12-04 16:13:20]: [FINE] Arbuzon logged in 127.0.0.1
+[12-04 16:19:44]: [FINE] Arbuzon logged in 127.0.0.1
+[12-04 16:24:36]: [INFO] AuthMe 5.6.0-beta2-b2453 disabled!
+[12-04 16:26:24]: [INFO] SQLite Setup finished
+[12-04 16:26:24]: [INFO] Hooked into LuckPerms!
+[12-04 16:26:25]: [INFO] AuthMe 5.6.0-beta2 build n.2453 successfully enabled!
+[12-04 16:26:25]: [INFO] Downloading GEO IP database, because the old database is older than 30 days or doesn't exist
+[12-04 16:26:25]: [WARN] No MaxMind credentials found in the configuration file! GeoIp protections will be disabled.
+[12-04 16:26:25]: [INFO] There is no newer GEO IP database uploaded to MaxMind. Using the old one for now.
+[12-04 16:26:25]: [WARN] Could not download GeoLiteAPI database [FileNotFoundException]: plugins\AuthMe\GeoLite2-Country.mmdb (Не удается найти указанный файл)
+[12-04 16:26:25]: java.io.FileNotFoundException: plugins\AuthMe\GeoLite2-Country.mmdb (Не удается найти указанный файл)
+	at java.io.RandomAccessFile.open0(Native Method)
+	at java.io.RandomAccessFile.open(Unknown Source)
+	at java.io.RandomAccessFile.<init>(Unknown Source)
+	at fr.xephi.authme.libs.com.maxmind.db.BufferHolder.<init>(BufferHolder.java:20)
+	at fr.xephi.authme.libs.com.maxmind.db.Reader.<init>(Reader.java:121)
+	at fr.xephi.authme.service.GeoIpService.startReading(GeoIpService.java:173)
+	at fr.xephi.authme.service.GeoIpService.updateDatabase(GeoIpService.java:144)
+	at org.bukkit.craftbukkit.v1_16_R3.scheduler.CraftTask.run(CraftTask.java:101)
+	at org.bukkit.craftbukkit.v1_16_R3.scheduler.CraftAsyncTask.run(CraftAsyncTask.java:54)
+	at com.destroystokyo.paper.ServerSchedulerReportingWrapper.run(ServerSchedulerReportingWrapper.java:22)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+
+[12-04 16:30:26]: [FINE] Arbuzon logged in 127.0.0.1
+[12-04 16:42:43]: [FINE] Arbuzon logged in 127.0.0.1
+[12-04 16:51:45]: [FINE] Arbuzon logged in 127.0.0.1
+[12-04 16:52:38]: [INFO] Arbuzon was unregistered by CONSOLE
+[12-04 16:53:09]: [FINE] Arbuzon registered 127.0.0.1
+[12-04 16:53:09]: [FINE] Arbuzon logged in 127.0.0.1
+[12-04 16:54:12]: [FINE] Arbuzon logged in 127.0.0.1
+[12-04 17:20:07]: [FINE] Arbuzon logged in 127.0.0.1
+[12-04 17:22:03]: [FINE] Arbuzon logged in 127.0.0.1
+[12-04 17:27:59]: [FINE] Arbuzon logged in 127.0.0.1
+[12-04 19:26:02]: [FINE] Arbuzon used the wrong password
+[12-04 19:26:19]: [FINE] Arbuzon logged in 127.0.0.1
+[12-04 23:00:06]: [FINE] Arbuzon logged in 127.0.0.1
+[12-04 23:25:45]: [FINE] Arbuzon logged in 127.0.0.1
+[12-04 23:33:08]: [INFO] AuthMe 5.6.0-beta2-b2453 disabled!
+[12-04 23:34:01]: [INFO] SQLite Setup finished
+[12-04 23:34:01]: [INFO] Hooked into LuckPerms!
+[12-04 23:34:02]: [INFO] AuthMe 5.6.0-beta2 build n.2453 successfully enabled!
+[12-04 23:34:02]: [INFO] Downloading GEO IP database, because the old database is older than 30 days or doesn't exist
+[12-04 23:34:02]: [WARN] No MaxMind credentials found in the configuration file! GeoIp protections will be disabled.
+[12-04 23:34:02]: [INFO] There is no newer GEO IP database uploaded to MaxMind. Using the old one for now.
+[12-04 23:34:02]: [WARN] Could not download GeoLiteAPI database [FileNotFoundException]: plugins\AuthMe\GeoLite2-Country.mmdb (Не удается найти указанный файл)
+[12-04 23:34:02]: java.io.FileNotFoundException: plugins\AuthMe\GeoLite2-Country.mmdb (Не удается найти указанный файл)
+	at java.io.RandomAccessFile.open0(Native Method)
+	at java.io.RandomAccessFile.open(Unknown Source)
+	at java.io.RandomAccessFile.<init>(Unknown Source)
+	at fr.xephi.authme.libs.com.maxmind.db.BufferHolder.<init>(BufferHolder.java:20)
+	at fr.xephi.authme.libs.com.maxmind.db.Reader.<init>(Reader.java:121)
+	at fr.xephi.authme.service.GeoIpService.startReading(GeoIpService.java:173)
+	at fr.xephi.authme.service.GeoIpService.updateDatabase(GeoIpService.java:144)
+	at org.bukkit.craftbukkit.v1_16_R3.scheduler.CraftTask.run(CraftTask.java:101)
+	at org.bukkit.craftbukkit.v1_16_R3.scheduler.CraftAsyncTask.run(CraftAsyncTask.java:54)
+	at com.destroystokyo.paper.ServerSchedulerReportingWrapper.run(ServerSchedulerReportingWrapper.java:22)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+
+[12-04 23:35:44]: [INFO] AuthMe 5.6.0-beta2-b2453 disabled!
+[12-04 23:39:07]: [INFO] SQLite Setup finished
+[12-04 23:39:08]: [INFO] Hooked into LuckPerms!
+[12-04 23:39:08]: [INFO] AuthMe 5.6.0-beta2 build n.2453 successfully enabled!
+[12-04 23:39:09]: [INFO] Downloading GEO IP database, because the old database is older than 30 days or doesn't exist
+[12-04 23:39:09]: [WARN] No MaxMind credentials found in the configuration file! GeoIp protections will be disabled.
+[12-04 23:39:09]: [INFO] There is no newer GEO IP database uploaded to MaxMind. Using the old one for now.
+[12-04 23:39:09]: [WARN] Could not download GeoLiteAPI database [FileNotFoundException]: plugins\AuthMe\GeoLite2-Country.mmdb (Не удается найти указанный файл)
+[12-04 23:39:09]: java.io.FileNotFoundException: plugins\AuthMe\GeoLite2-Country.mmdb (Не удается найти указанный файл)
+	at java.io.RandomAccessFile.open0(Native Method)
+	at java.io.RandomAccessFile.open(Unknown Source)
+	at java.io.RandomAccessFile.<init>(Unknown Source)
+	at fr.xephi.authme.libs.com.maxmind.db.BufferHolder.<init>(BufferHolder.java:20)
+	at fr.xephi.authme.libs.com.maxmind.db.Reader.<init>(Reader.java:121)
+	at fr.xephi.authme.service.GeoIpService.startReading(GeoIpService.java:173)
+	at fr.xephi.authme.service.GeoIpService.updateDatabase(GeoIpService.java:144)
+	at org.bukkit.craftbukkit.v1_16_R3.scheduler.CraftTask.run(CraftTask.java:101)
+	at org.bukkit.craftbukkit.v1_16_R3.scheduler.CraftAsyncTask.run(CraftAsyncTask.java:54)
+	at com.destroystokyo.paper.ServerSchedulerReportingWrapper.run(ServerSchedulerReportingWrapper.java:22)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+
+[12-04 23:39:37]: [FINE] Arbuzon logged in 127.0.0.1
+[12-04 23:44:16]: [FINE] Arbuzon logged in 127.0.0.1
+[12-04 23:57:58]: [INFO] AuthMe 5.6.0-beta2-b2453 disabled!
+[12-04 23:59:48]: [INFO] SQLite Setup finished
+[12-04 23:59:48]: [INFO] Hooked into LuckPerms!
+[12-04 23:59:49]: [INFO] AuthMe 5.6.0-beta2 build n.2453 successfully enabled!
+[12-04 23:59:49]: [INFO] Downloading GEO IP database, because the old database is older than 30 days or doesn't exist
+[12-04 23:59:49]: [WARN] No MaxMind credentials found in the configuration file! GeoIp protections will be disabled.
+[12-04 23:59:49]: [INFO] There is no newer GEO IP database uploaded to MaxMind. Using the old one for now.
+[12-04 23:59:49]: [WARN] Could not download GeoLiteAPI database [FileNotFoundException]: plugins\AuthMe\GeoLite2-Country.mmdb (Не удается найти указанный файл)
+[12-04 23:59:49]: java.io.FileNotFoundException: plugins\AuthMe\GeoLite2-Country.mmdb (Не удается найти указанный файл)
+	at java.io.RandomAccessFile.open0(Native Method)
+	at java.io.RandomAccessFile.open(Unknown Source)
+	at java.io.RandomAccessFile.<init>(Unknown Source)
+	at fr.xephi.authme.libs.com.maxmind.db.BufferHolder.<init>(BufferHolder.java:20)
+	at fr.xephi.authme.libs.com.maxmind.db.Reader.<init>(Reader.java:121)
+	at fr.xephi.authme.service.GeoIpService.startReading(GeoIpService.java:173)
+	at fr.xephi.authme.service.GeoIpService.updateDatabase(GeoIpService.java:144)
+	at org.bukkit.craftbukkit.v1_16_R3.scheduler.CraftTask.run(CraftTask.java:101)
+	at org.bukkit.craftbukkit.v1_16_R3.scheduler.CraftAsyncTask.run(CraftAsyncTask.java:54)
+	at com.destroystokyo.paper.ServerSchedulerReportingWrapper.run(ServerSchedulerReportingWrapper.java:22)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+
+[12-05 00:00:24]: [INFO] Arbuzon was unregistered by CONSOLE
+[12-05 00:47:55]: [INFO] AuthMe 5.6.0-beta2-b2453 disabled!
+[12-06 00:25:39]: [INFO] SQLite Setup finished
+[12-06 00:25:39]: [INFO] Hooked into LuckPerms!
+[12-06 00:25:40]: [INFO] AuthMe 5.6.0-beta2 build n.2453 successfully enabled!
+[12-06 00:25:40]: [INFO] Downloading GEO IP database, because the old database is older than 30 days or doesn't exist
+[12-06 00:25:40]: [WARN] No MaxMind credentials found in the configuration file! GeoIp protections will be disabled.
+[12-06 00:25:40]: [INFO] There is no newer GEO IP database uploaded to MaxMind. Using the old one for now.
+[12-06 00:25:40]: [WARN] Could not download GeoLiteAPI database [FileNotFoundException]: plugins\AuthMe\GeoLite2-Country.mmdb (Не удается найти указанный файл)
+[12-06 00:25:40]: java.io.FileNotFoundException: plugins\AuthMe\GeoLite2-Country.mmdb (Не удается найти указанный файл)
+	at java.io.RandomAccessFile.open0(Native Method)
+	at java.io.RandomAccessFile.open(Unknown Source)
+	at java.io.RandomAccessFile.<init>(Unknown Source)
+	at fr.xephi.authme.libs.com.maxmind.db.BufferHolder.<init>(BufferHolder.java:20)
+	at fr.xephi.authme.libs.com.maxmind.db.Reader.<init>(Reader.java:121)
+	at fr.xephi.authme.service.GeoIpService.startReading(GeoIpService.java:173)
+	at fr.xephi.authme.service.GeoIpService.updateDatabase(GeoIpService.java:144)
+	at org.bukkit.craftbukkit.v1_16_R3.scheduler.CraftTask.run(CraftTask.java:101)
+	at org.bukkit.craftbukkit.v1_16_R3.scheduler.CraftAsyncTask.run(CraftAsyncTask.java:54)
+	at com.destroystokyo.paper.ServerSchedulerReportingWrapper.run(ServerSchedulerReportingWrapper.java:22)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+
+[12-06 13:12:48]: [INFO] SQLite Setup finished
+[12-06 13:12:48]: [INFO] Hooked into LuckPerms!
+[12-06 13:12:49]: [INFO] AuthMe 5.6.0-beta2 build n.2453 successfully enabled!
+[12-06 13:12:49]: [INFO] Downloading GEO IP database, because the old database is older than 30 days or doesn't exist
+[12-06 13:12:49]: [WARN] No MaxMind credentials found in the configuration file! GeoIp protections will be disabled.
+[12-06 13:12:49]: [INFO] There is no newer GEO IP database uploaded to MaxMind. Using the old one for now.
+[12-06 13:12:49]: [WARN] Could not download GeoLiteAPI database [FileNotFoundException]: plugins\AuthMe\GeoLite2-Country.mmdb (Не удается найти указанный файл)
+[12-06 13:12:49]: java.io.FileNotFoundException: plugins\AuthMe\GeoLite2-Country.mmdb (Не удается найти указанный файл)
+	at java.io.RandomAccessFile.open0(Native Method)
+	at java.io.RandomAccessFile.open(Unknown Source)
+	at java.io.RandomAccessFile.<init>(Unknown Source)
+	at fr.xephi.authme.libs.com.maxmind.db.BufferHolder.<init>(BufferHolder.java:20)
+	at fr.xephi.authme.libs.com.maxmind.db.Reader.<init>(Reader.java:121)
+	at fr.xephi.authme.service.GeoIpService.startReading(GeoIpService.java:173)
+	at fr.xephi.authme.service.GeoIpService.updateDatabase(GeoIpService.java:144)
+	at org.bukkit.craftbukkit.v1_16_R3.scheduler.CraftTask.run(CraftTask.java:101)
+	at org.bukkit.craftbukkit.v1_16_R3.scheduler.CraftAsyncTask.run(CraftAsyncTask.java:54)
+	at com.destroystokyo.paper.ServerSchedulerReportingWrapper.run(ServerSchedulerReportingWrapper.java:22)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+
+[12-06 13:14:34]: [FINE] Arbuzon registered 127.0.0.1
+[12-06 13:14:34]: [FINE] Arbuzon logged in 127.0.0.1
+[12-06 13:38:14]: [INFO] AuthMe 5.6.0-beta2-b2453 disabled!
+[12-06 13:39:01]: [INFO] SQLite Setup finished
+[12-06 13:39:01]: [INFO] Hooked into LuckPerms!
+[12-06 13:39:02]: [INFO] AuthMe 5.6.0-beta2 build n.2453 successfully enabled!
+[12-06 13:39:03]: [INFO] Downloading GEO IP database, because the old database is older than 30 days or doesn't exist
+[12-06 13:39:03]: [WARN] No MaxMind credentials found in the configuration file! GeoIp protections will be disabled.
+[12-06 13:39:03]: [INFO] There is no newer GEO IP database uploaded to MaxMind. Using the old one for now.
+[12-06 13:39:03]: [WARN] Could not download GeoLiteAPI database [FileNotFoundException]: plugins\AuthMe\GeoLite2-Country.mmdb (Не удается найти указанный файл)
+[12-06 13:39:03]: java.io.FileNotFoundException: plugins\AuthMe\GeoLite2-Country.mmdb (Не удается найти указанный файл)
+	at java.io.RandomAccessFile.open0(Native Method)
+	at java.io.RandomAccessFile.open(Unknown Source)
+	at java.io.RandomAccessFile.<init>(Unknown Source)
+	at fr.xephi.authme.libs.com.maxmind.db.BufferHolder.<init>(BufferHolder.java:20)
+	at fr.xephi.authme.libs.com.maxmind.db.Reader.<init>(Reader.java:121)
+	at fr.xephi.authme.service.GeoIpService.startReading(GeoIpService.java:173)
+	at fr.xephi.authme.service.GeoIpService.updateDatabase(GeoIpService.java:144)
+	at org.bukkit.craftbukkit.v1_16_R3.scheduler.CraftTask.run(CraftTask.java:101)
+	at org.bukkit.craftbukkit.v1_16_R3.scheduler.CraftAsyncTask.run(CraftAsyncTask.java:54)
+	at com.destroystokyo.paper.ServerSchedulerReportingWrapper.run(ServerSchedulerReportingWrapper.java:22)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+
+[12-06 13:41:29]: [FINE] Arbuzon logged in 127.0.0.1
+[12-06 13:45:27]: [FINE] Arbuzon logged in 127.0.0.1
+[12-06 13:48:00]: [FINE] Arbuzon logged in 127.0.0.1
+[12-06 13:49:21]: [FINE] Arbuzon logged in 127.0.0.1
+[12-06 13:54:03]: [FINE] Arbuzon logged in 127.0.0.1
+[12-06 23:56:53]: [FINE] Arbuzon logged in 127.0.0.1
+[12-07 01:06:04]: [INFO] AuthMe 5.6.0-beta2-b2453 disabled!
+[12-07 17:30:52]: [INFO] SQLite Setup finished
+[12-07 17:30:52]: [INFO] Hooked into LuckPerms!
+[12-07 17:30:53]: [INFO] AuthMe 5.6.0-beta2 build n.2453 successfully enabled!
+[12-07 17:30:54]: [INFO] Downloading GEO IP database, because the old database is older than 30 days or doesn't exist
+[12-07 17:30:54]: [WARN] No MaxMind credentials found in the configuration file! GeoIp protections will be disabled.
+[12-07 17:30:54]: [INFO] There is no newer GEO IP database uploaded to MaxMind. Using the old one for now.
+[12-07 17:30:54]: [WARN] Could not download GeoLiteAPI database [FileNotFoundException]: plugins\AuthMe\GeoLite2-Country.mmdb (Не удается найти указанный файл)
+[12-07 17:30:54]: java.io.FileNotFoundException: plugins\AuthMe\GeoLite2-Country.mmdb (Не удается найти указанный файл)
+	at java.io.RandomAccessFile.open0(Native Method)
+	at java.io.RandomAccessFile.open(Unknown Source)
+	at java.io.RandomAccessFile.<init>(Unknown Source)
+	at fr.xephi.authme.libs.com.maxmind.db.BufferHolder.<init>(BufferHolder.java:20)
+	at fr.xephi.authme.libs.com.maxmind.db.Reader.<init>(Reader.java:121)
+	at fr.xephi.authme.service.GeoIpService.startReading(GeoIpService.java:173)
+	at fr.xephi.authme.service.GeoIpService.updateDatabase(GeoIpService.java:144)
+	at org.bukkit.craftbukkit.v1_16_R3.scheduler.CraftTask.run(CraftTask.java:101)
+	at org.bukkit.craftbukkit.v1_16_R3.scheduler.CraftAsyncTask.run(CraftAsyncTask.java:54)
+	at com.destroystokyo.paper.ServerSchedulerReportingWrapper.run(ServerSchedulerReportingWrapper.java:22)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+
+[12-07 17:32:31]: [FINE] Arbuzon logged in 127.0.0.1
+[12-07 17:54:01]: [FINE] Arbuzon logged in 127.0.0.1
+[12-07 17:58:29]: [FINE] Arbuzon logged in 127.0.0.1
+[12-07 18:06:52]: [FINE] Arbuzon logged in 127.0.0.1
+[12-07 18:17:43]: [FINE] Arbuzon logged in 127.0.0.1
+[12-07 18:35:28]: [INFO] Unhooked from Permissions!
+[12-07 18:35:28]: [INFO] Hooked into LuckPerms!
+[12-07 18:35:28]: [INFO] SQLite Setup finished
+[12-07 18:35:53]: [INFO] Arbuzon was unregistered by CONSOLE
+[12-07 18:36:23]: [FINE] Arbuzon registered 127.0.0.1
+[12-07 18:36:23]: [FINE] Arbuzon logged in 127.0.0.1
+[12-07 18:47:05]: [INFO] Unhooked from Permissions!
+[12-07 18:47:05]: [INFO] Hooked into LuckPerms!
+[12-07 18:47:05]: [INFO] SQLite Setup finished
+[12-07 18:47:59]: [FINE] Arbuzon used the wrong password
+[12-07 18:55:02]: [INFO] Unhooked from Permissions!
+[12-07 18:55:02]: [INFO] Hooked into LuckPerms!
+[12-07 18:55:02]: [INFO] SQLite Setup finished
+[12-07 18:55:10]: [FINE] Arbuzon used the wrong password
+[12-07 18:55:25]: [FINE] Arbuzon logged in 127.0.0.1
+[12-07 19:06:10]: [INFO] Unhooked from Permissions!
+[12-07 19:06:10]: [INFO] Hooked into LuckPerms!
+[12-07 19:06:10]: [INFO] SQLite Setup finished
+[12-07 19:31:50]: [INFO] Unhooked from Permissions!
+[12-07 19:31:50]: [INFO] Hooked into LuckPerms!
+[12-07 19:31:50]: [WARN] Aborting! Encountered exception during reload of AuthMe: [ParserException]: while parsing a block mapping
+ in 'reader', line 73, column 3:
+      name_length: '&cВаш ник слишком  ... 
+      ^
+expected <block end>, but found '<anchor>'
+ in 'reader', line 81, column 19:
+      quick_command: '&cВы использовали команду слишко ... 
+                      ^
+
+[12-07 19:31:50]: while parsing a block mapping
+ in 'reader', line 73, column 3:
+      name_length: '&cВаш ник слишком  ... 
+      ^
+expected <block end>, but found '<anchor>'
+ in 'reader', line 81, column 19:
+      quick_command: '&cВы использовали команду слишко ... 
+                      ^
+
+	at org.yaml.snakeyaml.parser.ParserImpl$ParseBlockMappingKey.produce(ParserImpl.java:570)
+	at org.yaml.snakeyaml.parser.ParserImpl.peekEvent(ParserImpl.java:158)
+	at org.yaml.snakeyaml.parser.ParserImpl.checkEvent(ParserImpl.java:148)
+	at org.yaml.snakeyaml.composer.Composer.composeMappingNode(Composer.java:235)
+	at org.yaml.snakeyaml.composer.Composer.composeNode(Composer.java:162)
+	at org.yaml.snakeyaml.composer.Composer.composeValueNode(Composer.java:257)
+	at org.yaml.snakeyaml.composer.Composer.composeMappingChildren(Composer.java:248)
+	at org.yaml.snakeyaml.composer.Composer.composeMappingNode(Composer.java:236)
+	at org.yaml.snakeyaml.composer.Composer.composeNode(Composer.java:162)
+	at org.yaml.snakeyaml.composer.Composer.getNode(Composer.java:95)
+	at org.yaml.snakeyaml.composer.Composer.getSingleNode(Composer.java:119)
+	at org.yaml.snakeyaml.constructor.BaseConstructor.getSingleData(BaseConstructor.java:150)
+	at org.yaml.snakeyaml.Yaml.loadFromReader(Yaml.java:490)
+	at org.yaml.snakeyaml.Yaml.load(Yaml.java:442)
+	at fr.xephi.authme.message.updater.MessageMigraterPropertyReader.readStreamToMap(MessageMigraterPropertyReader.java:111)
+	at fr.xephi.authme.message.updater.MessageMigraterPropertyReader.loadFromStream(MessageMigraterPropertyReader.java:48)
+	at fr.xephi.authme.message.updater.MessageMigraterPropertyReader.loadFromFile(MessageMigraterPropertyReader.java:41)
+	at fr.xephi.authme.message.updater.MigraterYamlFileResource.createReader(MigraterYamlFileResource.java:23)
+	at fr.xephi.authme.message.updater.MessageUpdater.migrateAndSave(MessageUpdater.java:61)
+	at fr.xephi.authme.message.updater.MessageUpdater.migrateAndSave(MessageUpdater.java:46)
+	at fr.xephi.authme.message.MessagesFileHandler.reloadInternal(MessagesFileHandler.java:33)
+	at fr.xephi.authme.message.MessagesFileHandler.reload(MessagesFileHandler.java:26)
+	at fr.xephi.authme.command.executable.authme.ReloadCommand.lambda$performReloadOnServices$0(ReloadCommand.java:72)
+	at java.util.ArrayList.forEach(Unknown Source)
+	at fr.xephi.authme.command.executable.authme.ReloadCommand.performReloadOnServices(ReloadCommand.java:72)
+	at fr.xephi.authme.command.executable.authme.ReloadCommand.executeCommand(ReloadCommand.java:61)
+	at fr.xephi.authme.command.CommandHandler.executeCommand(CommandHandler.java:122)
+	at fr.xephi.authme.command.CommandHandler.handleCommandResult(CommandHandler.java:81)
+	at fr.xephi.authme.command.CommandHandler.processCommand(CommandHandler.java:68)
+	at fr.xephi.authme.AuthMe.onCommand(AuthMe.java:344)
+	at org.bukkit.command.PluginCommand.execute(PluginCommand.java:45)
+	at org.bukkit.command.SimpleCommandMap.dispatch(SimpleCommandMap.java:159)
+	at org.bukkit.craftbukkit.v1_16_R3.CraftServer.dispatchCommand(CraftServer.java:826)
+	at org.bukkit.craftbukkit.v1_16_R3.CraftServer.dispatchServerCommand(CraftServer.java:788)
+	at net.minecraft.server.v1_16_R3.DedicatedServer.handleCommandQueue(DedicatedServer.java:470)
+	at net.minecraft.server.v1_16_R3.DedicatedServer.b(DedicatedServer.java:437)
+	at net.minecraft.server.v1_16_R3.MinecraftServer.a(MinecraftServer.java:1347)
+	at net.minecraft.server.v1_16_R3.MinecraftServer.w(MinecraftServer.java:1135)
+	at net.minecraft.server.v1_16_R3.MinecraftServer.lambda$a$0(MinecraftServer.java:291)
+	at java.lang.Thread.run(Unknown Source)
+
+[12-07 19:31:50]: [INFO] AuthMe 5.6.0-beta2-b2453 disabled!
+[12-07 19:36:50]: [INFO] SQLite Setup finished
+[12-07 19:36:50]: [INFO] Hooked into LuckPerms!
+[12-07 19:36:50]: [WARN] Aborting initialization of AuthMe: [InjectorReflectionException]: Could not invoke method 'reload' for fr.xephi.authme.message.MessagesFileHandler@676ddb46
+[12-07 19:36:51]: fr.xephi.authme.libs.ch.jalu.injector.exceptions.InjectorReflectionException: Could not invoke method 'reload' for fr.xephi.authme.message.MessagesFileHandler@676ddb46
+	at fr.xephi.authme.libs.ch.jalu.injector.utils.ReflectionUtils.invokeMethod(ReflectionUtils.java:76)
+	at fr.xephi.authme.libs.ch.jalu.injector.handlers.postconstruct.PostConstructMethodInvoker.postProcess(PostConstructMethodInvoker.java:27)
+	at fr.xephi.authme.libs.ch.jalu.injector.InjectorImpl.runPostConstructHandlers(InjectorImpl.java:271)
+	at fr.xephi.authme.libs.ch.jalu.injector.InjectorImpl.resolveContext(InjectorImpl.java:164)
+	at fr.xephi.authme.libs.ch.jalu.injector.InjectorImpl.resolveDependencies(InjectorImpl.java:186)
+	at fr.xephi.authme.libs.ch.jalu.injector.InjectorImpl.resolveContext(InjectorImpl.java:158)
+	at fr.xephi.authme.libs.ch.jalu.injector.InjectorImpl.resolveDependencies(InjectorImpl.java:186)
+	at fr.xephi.authme.libs.ch.jalu.injector.InjectorImpl.resolveContext(InjectorImpl.java:158)
+	at fr.xephi.authme.libs.ch.jalu.injector.InjectorImpl.resolve(InjectorImpl.java:133)
+	at fr.xephi.authme.libs.ch.jalu.injector.InjectorImpl.getSingleton(InjectorImpl.java:72)
+	at fr.xephi.authme.AuthMe.instantiateServices(AuthMe.java:247)
+	at fr.xephi.authme.AuthMe.initialize(AuthMe.java:221)
+	at fr.xephi.authme.AuthMe.onEnable(AuthMe.java:145)
+	at org.bukkit.plugin.java.JavaPlugin.setEnabled(JavaPlugin.java:263)
+	at org.bukkit.plugin.java.JavaPluginLoader.enablePlugin(JavaPluginLoader.java:370)
+	at org.bukkit.plugin.SimplePluginManager.enablePlugin(SimplePluginManager.java:500)
+	at org.bukkit.craftbukkit.v1_16_R3.CraftServer.enablePlugin(CraftServer.java:518)
+	at org.bukkit.craftbukkit.v1_16_R3.CraftServer.enablePlugins(CraftServer.java:432)
+	at net.minecraft.server.v1_16_R3.MinecraftServer.loadWorld(MinecraftServer.java:599)
+	at net.minecraft.server.v1_16_R3.DedicatedServer.init(DedicatedServer.java:298)
+	at net.minecraft.server.v1_16_R3.MinecraftServer.w(MinecraftServer.java:1074)
+	at net.minecraft.server.v1_16_R3.MinecraftServer.lambda$a$0(MinecraftServer.java:291)
+	at java.lang.Thread.run(Unknown Source)
+Caused by: java.lang.reflect.InvocationTargetException
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at fr.xephi.authme.libs.ch.jalu.injector.utils.ReflectionUtils.invokeMethod(ReflectionUtils.java:73)
+	... 22 more
+Caused by: while parsing a block mapping
+ in 'reader', line 73, column 3:
+      name_length: '&cВаш ник слишком  ... 
+      ^
+expected <block end>, but found '<anchor>'
+ in 'reader', line 81, column 19:
+      quick_command: '&cВы использовали команду слишко ... 
+                      ^
+
+	at org.yaml.snakeyaml.parser.ParserImpl$ParseBlockMappingKey.produce(ParserImpl.java:570)
+	at org.yaml.snakeyaml.parser.ParserImpl.peekEvent(ParserImpl.java:158)
+	at org.yaml.snakeyaml.parser.ParserImpl.checkEvent(ParserImpl.java:148)
+	at org.yaml.snakeyaml.composer.Composer.composeMappingNode(Composer.java:235)
+	at org.yaml.snakeyaml.composer.Composer.composeNode(Composer.java:162)
+	at org.yaml.snakeyaml.composer.Composer.composeValueNode(Composer.java:257)
+	at org.yaml.snakeyaml.composer.Composer.composeMappingChildren(Composer.java:248)
+	at org.yaml.snakeyaml.composer.Composer.composeMappingNode(Composer.java:236)
+	at org.yaml.snakeyaml.composer.Composer.composeNode(Composer.java:162)
+	at org.yaml.snakeyaml.composer.Composer.getNode(Composer.java:95)
+	at org.yaml.snakeyaml.composer.Composer.getSingleNode(Composer.java:119)
+	at org.yaml.snakeyaml.constructor.BaseConstructor.getSingleData(BaseConstructor.java:150)
+	at org.yaml.snakeyaml.Yaml.loadFromReader(Yaml.java:490)
+	at org.yaml.snakeyaml.Yaml.load(Yaml.java:442)
+	at fr.xephi.authme.message.updater.MessageMigraterPropertyReader.readStreamToMap(MessageMigraterPropertyReader.java:111)
+	at fr.xephi.authme.message.updater.MessageMigraterPropertyReader.loadFromStream(MessageMigraterPropertyReader.java:48)
+	at fr.xephi.authme.message.updater.MessageMigraterPropertyReader.loadFromFile(MessageMigraterPropertyReader.java:41)
+	at fr.xephi.authme.message.updater.MigraterYamlFileResource.createReader(MigraterYamlFileResource.java:23)
+	at fr.xephi.authme.message.updater.MessageUpdater.migrateAndSave(MessageUpdater.java:61)
+	at fr.xephi.authme.message.updater.MessageUpdater.migrateAndSave(MessageUpdater.java:46)
+	at fr.xephi.authme.message.MessagesFileHandler.reloadInternal(MessagesFileHandler.java:33)
+	at fr.xephi.authme.message.MessagesFileHandler.reload(MessagesFileHandler.java:26)
+	... 27 more
+
+[12-07 19:36:51]: [INFO] AuthMe 5.6.0-beta2-b2453 disabled!
+[12-07 19:46:35]: [INFO] SQLite Setup finished
+[12-07 19:46:35]: [INFO] Hooked into LuckPerms!
+[12-07 19:46:36]: [WARN] Aborting initialization of AuthMe: [InjectorReflectionException]: Could not invoke method 'reload' for fr.xephi.authme.message.MessagesFileHandler@6bff9f02
+[12-07 19:46:36]: fr.xephi.authme.libs.ch.jalu.injector.exceptions.InjectorReflectionException: Could not invoke method 'reload' for fr.xephi.authme.message.MessagesFileHandler@6bff9f02
+	at fr.xephi.authme.libs.ch.jalu.injector.utils.ReflectionUtils.invokeMethod(ReflectionUtils.java:76)
+	at fr.xephi.authme.libs.ch.jalu.injector.handlers.postconstruct.PostConstructMethodInvoker.postProcess(PostConstructMethodInvoker.java:27)
+	at fr.xephi.authme.libs.ch.jalu.injector.InjectorImpl.runPostConstructHandlers(InjectorImpl.java:271)
+	at fr.xephi.authme.libs.ch.jalu.injector.InjectorImpl.resolveContext(InjectorImpl.java:164)
+	at fr.xephi.authme.libs.ch.jalu.injector.InjectorImpl.resolveDependencies(InjectorImpl.java:186)
+	at fr.xephi.authme.libs.ch.jalu.injector.InjectorImpl.resolveContext(InjectorImpl.java:158)
+	at fr.xephi.authme.libs.ch.jalu.injector.InjectorImpl.resolveDependencies(InjectorImpl.java:186)
+	at fr.xephi.authme.libs.ch.jalu.injector.InjectorImpl.resolveContext(InjectorImpl.java:158)
+	at fr.xephi.authme.libs.ch.jalu.injector.InjectorImpl.resolve(InjectorImpl.java:133)
+	at fr.xephi.authme.libs.ch.jalu.injector.InjectorImpl.getSingleton(InjectorImpl.java:72)
+	at fr.xephi.authme.AuthMe.instantiateServices(AuthMe.java:247)
+	at fr.xephi.authme.AuthMe.initialize(AuthMe.java:221)
+	at fr.xephi.authme.AuthMe.onEnable(AuthMe.java:145)
+	at org.bukkit.plugin.java.JavaPlugin.setEnabled(JavaPlugin.java:263)
+	at org.bukkit.plugin.java.JavaPluginLoader.enablePlugin(JavaPluginLoader.java:370)
+	at org.bukkit.plugin.SimplePluginManager.enablePlugin(SimplePluginManager.java:500)
+	at org.bukkit.craftbukkit.v1_16_R3.CraftServer.enablePlugin(CraftServer.java:518)
+	at org.bukkit.craftbukkit.v1_16_R3.CraftServer.enablePlugins(CraftServer.java:432)
+	at net.minecraft.server.v1_16_R3.MinecraftServer.loadWorld(MinecraftServer.java:599)
+	at net.minecraft.server.v1_16_R3.DedicatedServer.init(DedicatedServer.java:298)
+	at net.minecraft.server.v1_16_R3.MinecraftServer.w(MinecraftServer.java:1074)
+	at net.minecraft.server.v1_16_R3.MinecraftServer.lambda$a$0(MinecraftServer.java:291)
+	at java.lang.Thread.run(Unknown Source)
+Caused by: java.lang.reflect.InvocationTargetException
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at fr.xephi.authme.libs.ch.jalu.injector.utils.ReflectionUtils.invokeMethod(ReflectionUtils.java:73)
+	... 22 more
+Caused by: while parsing a block mapping
+ in 'reader', line 73, column 3:
+      name_length: '§cВаш ник слишком  ... 
+      ^
+expected <block end>, but found '<scalar>'
+ in 'reader', line 81, column 19:
+      quick_command: '§cВы использовали команду слишко ... 
+                      ^
+
+	at org.yaml.snakeyaml.parser.ParserImpl$ParseBlockMappingKey.produce(ParserImpl.java:570)
+	at org.yaml.snakeyaml.parser.ParserImpl.peekEvent(ParserImpl.java:158)
+	at org.yaml.snakeyaml.parser.ParserImpl.checkEvent(ParserImpl.java:148)
+	at org.yaml.snakeyaml.composer.Composer.composeMappingNode(Composer.java:235)
+	at org.yaml.snakeyaml.composer.Composer.composeNode(Composer.java:162)
+	at org.yaml.snakeyaml.composer.Composer.composeValueNode(Composer.java:257)
+	at org.yaml.snakeyaml.composer.Composer.composeMappingChildren(Composer.java:248)
+	at org.yaml.snakeyaml.composer.Composer.composeMappingNode(Composer.java:236)
+	at org.yaml.snakeyaml.composer.Composer.composeNode(Composer.java:162)
+	at org.yaml.snakeyaml.composer.Composer.getNode(Composer.java:95)
+	at org.yaml.snakeyaml.composer.Composer.getSingleNode(Composer.java:119)
+	at org.yaml.snakeyaml.constructor.BaseConstructor.getSingleData(BaseConstructor.java:150)
+	at org.yaml.snakeyaml.Yaml.loadFromReader(Yaml.java:490)
+	at org.yaml.snakeyaml.Yaml.load(Yaml.java:442)
+	at fr.xephi.authme.message.updater.MessageMigraterPropertyReader.readStreamToMap(MessageMigraterPropertyReader.java:111)
+	at fr.xephi.authme.message.updater.MessageMigraterPropertyReader.loadFromStream(MessageMigraterPropertyReader.java:48)
+	at fr.xephi.authme.message.updater.MessageMigraterPropertyReader.loadFromFile(MessageMigraterPropertyReader.java:41)
+	at fr.xephi.authme.message.updater.MigraterYamlFileResource.createReader(MigraterYamlFileResource.java:23)
+	at fr.xephi.authme.message.updater.MessageUpdater.migrateAndSave(MessageUpdater.java:61)
+	at fr.xephi.authme.message.updater.MessageUpdater.migrateAndSave(MessageUpdater.java:46)
+	at fr.xephi.authme.message.MessagesFileHandler.reloadInternal(MessagesFileHandler.java:33)
+	at fr.xephi.authme.message.MessagesFileHandler.reload(MessagesFileHandler.java:26)
+	... 27 more
+
+[12-07 19:46:36]: [INFO] AuthMe 5.6.0-beta2-b2453 disabled!
+[12-07 19:50:54]: [INFO] SQLite Setup finished
+[12-07 19:50:54]: [INFO] Hooked into LuckPerms!
+[12-07 19:50:55]: [INFO] AuthMe 5.6.0-beta2 build n.2453 successfully enabled!
+[12-07 19:50:56]: [INFO] Downloading GEO IP database, because the old database is older than 30 days or doesn't exist
+[12-07 19:50:56]: [WARN] No MaxMind credentials found in the configuration file! GeoIp protections will be disabled.
+[12-07 19:50:56]: [INFO] There is no newer GEO IP database uploaded to MaxMind. Using the old one for now.
+[12-07 19:50:56]: [WARN] Could not download GeoLiteAPI database [FileNotFoundException]: plugins\AuthMe\GeoLite2-Country.mmdb (Не удается найти указанный файл)
+[12-07 19:50:56]: java.io.FileNotFoundException: plugins\AuthMe\GeoLite2-Country.mmdb (Не удается найти указанный файл)
+	at java.io.RandomAccessFile.open0(Native Method)
+	at java.io.RandomAccessFile.open(Unknown Source)
+	at java.io.RandomAccessFile.<init>(Unknown Source)
+	at fr.xephi.authme.libs.com.maxmind.db.BufferHolder.<init>(BufferHolder.java:20)
+	at fr.xephi.authme.libs.com.maxmind.db.Reader.<init>(Reader.java:121)
+	at fr.xephi.authme.service.GeoIpService.startReading(GeoIpService.java:173)
+	at fr.xephi.authme.service.GeoIpService.updateDatabase(GeoIpService.java:144)
+	at org.bukkit.craftbukkit.v1_16_R3.scheduler.CraftTask.run(CraftTask.java:101)
+	at org.bukkit.craftbukkit.v1_16_R3.scheduler.CraftAsyncTask.run(CraftAsyncTask.java:54)
+	at com.destroystokyo.paper.ServerSchedulerReportingWrapper.run(ServerSchedulerReportingWrapper.java:22)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+
+[12-07 19:53:39]: [FINE] Arbuzon used the wrong password
+[12-07 19:53:51]: [FINE] Arbuzon logged in 127.0.0.1
+[12-07 20:19:43]: [FINE] Arbuzon logged in 127.0.0.1
+[12-07 20:33:28]: [INFO] Unhooked from Permissions!
+[12-07 20:33:28]: [INFO] Hooked into LuckPerms!
+[12-07 20:33:28]: [INFO] SQLite Setup finished
+[12-07 20:35:14]: [INFO] arbuzon was unregistered by CONSOLE
+[12-07 20:35:31]: [FINE] Arbuzon registered 127.0.0.1
+[12-07 20:35:31]: [FINE] Arbuzon logged in 127.0.0.1
+[12-07 20:48:42]: [INFO] Unhooked from Permissions!
+[12-07 20:48:42]: [INFO] Hooked into LuckPerms!
+[12-07 20:48:42]: [INFO] SQLite Setup finished
+[12-07 20:49:00]: [WARN] Mail API is not set
+[12-07 20:53:20]: [FINE] Arbuzon logged in 127.0.0.1
+[12-07 21:26:23]: [WARN] Aborting! Encountered exception during reload of AuthMe: [YamlParseException]: while scanning a simple key
+ in 'reader', line 216, column 5:
+        GameMode:adventure
+        ^
+could not find expected ':'
+ in 'reader', line 217, column 9:
+            # Force survival gamemode when p ... 
+            ^
+
+[12-07 21:26:23]: fr.xephi.authme.service.yaml.YamlParseException: while scanning a simple key
+ in 'reader', line 216, column 5:
+        GameMode:adventure
+        ^
+could not find expected ':'
+ in 'reader', line 217, column 9:
+            # Force survival gamemode when p ... 
+            ^
+
+	at fr.xephi.authme.service.yaml.YamlFileResourceProvider$AuthMeYamlFileResource.createReader(YamlFileResourceProvider.java:43)
+	at fr.xephi.authme.libs.ch.jalu.configme.SettingsManagerImpl.loadFromResourceAndValidate(SettingsManagerImpl.java:87)
+	at fr.xephi.authme.libs.ch.jalu.configme.SettingsManagerImpl.reload(SettingsManagerImpl.java:74)
+	at fr.xephi.authme.settings.Settings.reload(Settings.java:78)
+	at fr.xephi.authme.command.executable.authme.ReloadCommand.executeCommand(ReloadCommand.java:53)
+	at fr.xephi.authme.command.CommandHandler.executeCommand(CommandHandler.java:122)
+	at fr.xephi.authme.command.CommandHandler.handleCommandResult(CommandHandler.java:81)
+	at fr.xephi.authme.command.CommandHandler.processCommand(CommandHandler.java:68)
+	at fr.xephi.authme.AuthMe.onCommand(AuthMe.java:344)
+	at org.bukkit.command.PluginCommand.execute(PluginCommand.java:45)
+	at org.bukkit.command.SimpleCommandMap.dispatch(SimpleCommandMap.java:159)
+	at org.bukkit.craftbukkit.v1_16_R3.CraftServer.dispatchCommand(CraftServer.java:826)
+	at org.bukkit.craftbukkit.v1_16_R3.CraftServer.dispatchServerCommand(CraftServer.java:788)
+	at net.minecraft.server.v1_16_R3.DedicatedServer.handleCommandQueue(DedicatedServer.java:470)
+	at net.minecraft.server.v1_16_R3.DedicatedServer.b(DedicatedServer.java:437)
+	at net.minecraft.server.v1_16_R3.MinecraftServer.a(MinecraftServer.java:1347)
+	at net.minecraft.server.v1_16_R3.MinecraftServer.w(MinecraftServer.java:1135)
+	at net.minecraft.server.v1_16_R3.MinecraftServer.lambda$a$0(MinecraftServer.java:291)
+	at java.lang.Thread.run(Unknown Source)
+Caused by: while scanning a simple key
+ in 'reader', line 216, column 5:
+        GameMode:adventure
+        ^
+could not find expected ':'
+ in 'reader', line 217, column 9:
+            # Force survival gamemode when p ... 
+            ^
+
+	at org.yaml.snakeyaml.scanner.ScannerImpl.stalePossibleSimpleKeys(ScannerImpl.java:463)
+	at org.yaml.snakeyaml.scanner.ScannerImpl.needMoreTokens(ScannerImpl.java:278)
+	at org.yaml.snakeyaml.scanner.ScannerImpl.checkToken(ScannerImpl.java:226)
+	at org.yaml.snakeyaml.parser.ParserImpl$ParseBlockMappingKey.produce(ParserImpl.java:558)
+	at org.yaml.snakeyaml.parser.ParserImpl.peekEvent(ParserImpl.java:158)
+	at org.yaml.snakeyaml.parser.ParserImpl.checkEvent(ParserImpl.java:148)
+	at org.yaml.snakeyaml.composer.Composer.composeMappingNode(Composer.java:235)
+	at org.yaml.snakeyaml.composer.Composer.composeNode(Composer.java:162)
+	at org.yaml.snakeyaml.composer.Composer.composeValueNode(Composer.java:257)
+	at org.yaml.snakeyaml.composer.Composer.composeMappingChildren(Composer.java:248)
+	at org.yaml.snakeyaml.composer.Composer.composeMappingNode(Composer.java:236)
+	at org.yaml.snakeyaml.composer.Composer.composeNode(Composer.java:162)
+	at org.yaml.snakeyaml.composer.Composer.composeValueNode(Composer.java:257)
+	at org.yaml.snakeyaml.composer.Composer.composeMappingChildren(Composer.java:248)
+	at org.yaml.snakeyaml.composer.Composer.composeMappingNode(Composer.java:236)
+	at org.yaml.snakeyaml.composer.Composer.composeNode(Composer.java:162)
+	at org.yaml.snakeyaml.composer.Composer.getNode(Composer.java:95)
+	at org.yaml.snakeyaml.composer.Composer.getSingleNode(Composer.java:119)
+	at org.yaml.snakeyaml.constructor.BaseConstructor.getSingleData(BaseConstructor.java:150)
+	at org.yaml.snakeyaml.Yaml.loadFromReader(Yaml.java:490)
+	at org.yaml.snakeyaml.Yaml.load(Yaml.java:442)
+	at fr.xephi.authme.libs.ch.jalu.configme.resource.YamlFileReader.loadFile(YamlFileReader.java:169)
+	at fr.xephi.authme.libs.ch.jalu.configme.resource.YamlFileReader.<init>(YamlFileReader.java:50)
+	at fr.xephi.authme.libs.ch.jalu.configme.resource.YamlFileResource.createReader(YamlFileResource.java:54)
+	at fr.xephi.authme.service.yaml.YamlFileResourceProvider$AuthMeYamlFileResource.createReader(YamlFileResourceProvider.java:41)
+	... 18 more
+
+[12-07 21:26:23]: [INFO] AuthMe 5.6.0-beta2-b2453 disabled!
+[12-07 21:29:15]: [INFO] SQLite Setup finished
+[12-07 21:29:15]: [INFO] Hooked into LuckPerms!
+[12-07 21:29:15]: [INFO] AuthMe 5.6.0-beta2 build n.2453 successfully enabled!
+[12-07 21:29:17]: [INFO] Downloading GEO IP database, because the old database is older than 30 days or doesn't exist
+[12-07 21:29:17]: [WARN] No MaxMind credentials found in the configuration file! GeoIp protections will be disabled.
+[12-07 21:29:17]: [INFO] There is no newer GEO IP database uploaded to MaxMind. Using the old one for now.
+[12-07 21:29:17]: [WARN] Could not download GeoLiteAPI database [FileNotFoundException]: plugins\AuthMe\GeoLite2-Country.mmdb (Не удается найти указанный файл)
+[12-07 21:29:17]: java.io.FileNotFoundException: plugins\AuthMe\GeoLite2-Country.mmdb (Не удается найти указанный файл)
+	at java.io.RandomAccessFile.open0(Native Method)
+	at java.io.RandomAccessFile.open(Unknown Source)
+	at java.io.RandomAccessFile.<init>(Unknown Source)
+	at fr.xephi.authme.libs.com.maxmind.db.BufferHolder.<init>(BufferHolder.java:20)
+	at fr.xephi.authme.libs.com.maxmind.db.Reader.<init>(Reader.java:121)
+	at fr.xephi.authme.service.GeoIpService.startReading(GeoIpService.java:173)
+	at fr.xephi.authme.service.GeoIpService.updateDatabase(GeoIpService.java:144)
+	at org.bukkit.craftbukkit.v1_16_R3.scheduler.CraftTask.run(CraftTask.java:101)
+	at org.bukkit.craftbukkit.v1_16_R3.scheduler.CraftAsyncTask.run(CraftAsyncTask.java:54)
+	at com.destroystokyo.paper.ServerSchedulerReportingWrapper.run(ServerSchedulerReportingWrapper.java:22)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+
+[12-07 21:29:50]: [FINE] Arbuzon logged in 127.0.0.1
+[12-07 21:59:50]: [INFO] AuthMe 5.6.0-beta2-b2453 disabled!
+[12-08 17:28:09]: [INFO] SQLite Setup finished
+[12-08 17:28:09]: [INFO] Hooked into LuckPerms!
+[12-08 17:28:09]: [INFO] AuthMe 5.6.0-beta2 build n.2453 successfully enabled!
+[12-08 17:28:10]: [INFO] Downloading GEO IP database, because the old database is older than 30 days or doesn't exist
+[12-08 17:28:10]: [WARN] No MaxMind credentials found in the configuration file! GeoIp protections will be disabled.
+[12-08 17:28:10]: [INFO] There is no newer GEO IP database uploaded to MaxMind. Using the old one for now.
+[12-08 17:28:10]: [WARN] Could not download GeoLiteAPI database [FileNotFoundException]: plugins\AuthMe\GeoLite2-Country.mmdb (Не удается найти указанный файл)
+[12-08 17:28:10]: java.io.FileNotFoundException: plugins\AuthMe\GeoLite2-Country.mmdb (Не удается найти указанный файл)
+	at java.io.RandomAccessFile.open0(Native Method)
+	at java.io.RandomAccessFile.open(Unknown Source)
+	at java.io.RandomAccessFile.<init>(Unknown Source)
+	at fr.xephi.authme.libs.com.maxmind.db.BufferHolder.<init>(BufferHolder.java:20)
+	at fr.xephi.authme.libs.com.maxmind.db.Reader.<init>(Reader.java:121)
+	at fr.xephi.authme.service.GeoIpService.startReading(GeoIpService.java:173)
+	at fr.xephi.authme.service.GeoIpService.updateDatabase(GeoIpService.java:144)
+	at org.bukkit.craftbukkit.v1_16_R3.scheduler.CraftTask.run(CraftTask.java:101)
+	at org.bukkit.craftbukkit.v1_16_R3.scheduler.CraftAsyncTask.run(CraftAsyncTask.java:54)
+	at com.destroystokyo.paper.ServerSchedulerReportingWrapper.run(ServerSchedulerReportingWrapper.java:22)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+
+[12-08 17:29:16]: [FINE] Arbuzon logged in 127.0.0.1
+[12-08 17:36:22]: [FINE] Arbuzon logged in 127.0.0.1
+[12-08 17:49:23]: [FINE] Arbuzon used the wrong password
+[12-08 17:49:37]: [FINE] Arbuzon logged in 127.0.0.1
+[12-08 18:00:56]: [INFO] Unhooked from Permissions!
+[12-08 18:00:56]: [INFO] Hooked into LuckPerms!
+[12-08 18:00:56]: [INFO] SQLite Setup finished
+[12-08 18:00:56]: [WARN] Aborting! Encountered exception during reload of AuthMe: [YamlParseException]: expected '<document start>', but found '<block mapping start>'
+ in 'reader', line 44, column 1:
+    onFirstLogin: {}
+    ^
+
+[12-08 18:00:56]: fr.xephi.authme.service.yaml.YamlParseException: expected '<document start>', but found '<block mapping start>'
+ in 'reader', line 44, column 1:
+    onFirstLogin: {}
+    ^
+
+	at fr.xephi.authme.service.yaml.YamlFileResourceProvider$AuthMeYamlFileResource.createReader(YamlFileResourceProvider.java:43)
+	at fr.xephi.authme.libs.ch.jalu.configme.SettingsManagerImpl.loadFromResourceAndValidate(SettingsManagerImpl.java:87)
+	at fr.xephi.authme.libs.ch.jalu.configme.SettingsManagerImpl.<init>(SettingsManagerImpl.java:45)
+	at fr.xephi.authme.libs.ch.jalu.configme.SettingsManagerBuilder.create(SettingsManagerBuilder.java:137)
+	at fr.xephi.authme.settings.commandconfig.CommandManager.reload(CommandManager.java:164)
+	at fr.xephi.authme.command.executable.authme.ReloadCommand.lambda$performReloadOnServices$0(ReloadCommand.java:72)
+	at java.util.ArrayList.forEach(Unknown Source)
+	at fr.xephi.authme.command.executable.authme.ReloadCommand.performReloadOnServices(ReloadCommand.java:72)
+	at fr.xephi.authme.command.executable.authme.ReloadCommand.executeCommand(ReloadCommand.java:61)
+	at fr.xephi.authme.command.CommandHandler.executeCommand(CommandHandler.java:122)
+	at fr.xephi.authme.command.CommandHandler.handleCommandResult(CommandHandler.java:81)
+	at fr.xephi.authme.command.CommandHandler.processCommand(CommandHandler.java:68)
+	at fr.xephi.authme.AuthMe.onCommand(AuthMe.java:344)
+	at org.bukkit.command.PluginCommand.execute(PluginCommand.java:45)
+	at org.bukkit.command.SimpleCommandMap.dispatch(SimpleCommandMap.java:159)
+	at org.bukkit.craftbukkit.v1_16_R3.CraftServer.dispatchCommand(CraftServer.java:826)
+	at org.bukkit.craftbukkit.v1_16_R3.CraftServer.dispatchServerCommand(CraftServer.java:788)
+	at net.minecraft.server.v1_16_R3.DedicatedServer.handleCommandQueue(DedicatedServer.java:470)
+	at net.minecraft.server.v1_16_R3.DedicatedServer.b(DedicatedServer.java:437)
+	at net.minecraft.server.v1_16_R3.MinecraftServer.a(MinecraftServer.java:1347)
+	at net.minecraft.server.v1_16_R3.MinecraftServer.w(MinecraftServer.java:1135)
+	at net.minecraft.server.v1_16_R3.MinecraftServer.lambda$a$0(MinecraftServer.java:291)
+	at java.lang.Thread.run(Unknown Source)
+Caused by: expected '<document start>', but found '<block mapping start>'
+ in 'reader', line 44, column 1:
+    onFirstLogin: {}
+    ^
+
+	at org.yaml.snakeyaml.parser.ParserImpl$ParseDocumentStart.produce(ParserImpl.java:225)
+	at org.yaml.snakeyaml.parser.ParserImpl.peekEvent(ParserImpl.java:158)
+	at org.yaml.snakeyaml.parser.ParserImpl.checkEvent(ParserImpl.java:148)
+	at org.yaml.snakeyaml.composer.Composer.getSingleNode(Composer.java:122)
+	at org.yaml.snakeyaml.constructor.BaseConstructor.getSingleData(BaseConstructor.java:150)
+	at org.yaml.snakeyaml.Yaml.loadFromReader(Yaml.java:490)
+	at org.yaml.snakeyaml.Yaml.load(Yaml.java:442)
+	at fr.xephi.authme.libs.ch.jalu.configme.resource.YamlFileReader.loadFile(YamlFileReader.java:169)
+	at fr.xephi.authme.libs.ch.jalu.configme.resource.YamlFileReader.<init>(YamlFileReader.java:50)
+	at fr.xephi.authme.libs.ch.jalu.configme.resource.YamlFileResource.createReader(YamlFileResource.java:54)
+	at fr.xephi.authme.service.yaml.YamlFileResourceProvider$AuthMeYamlFileResource.createReader(YamlFileResourceProvider.java:41)
+	... 22 more
+
+[12-08 18:00:56]: [INFO] AuthMe 5.6.0-beta2-b2453 disabled!
+[12-08 18:02:11]: [INFO] SQLite Setup finished
+[12-08 18:02:12]: [INFO] Hooked into LuckPerms!
+[12-08 18:02:12]: [INFO] AuthMe 5.6.0-beta2 build n.2453 successfully enabled!
+[12-08 18:02:13]: [INFO] Downloading GEO IP database, because the old database is older than 30 days or doesn't exist
+[12-08 18:02:13]: [WARN] No MaxMind credentials found in the configuration file! GeoIp protections will be disabled.
+[12-08 18:02:13]: [INFO] There is no newer GEO IP database uploaded to MaxMind. Using the old one for now.
+[12-08 18:02:13]: [WARN] Could not download GeoLiteAPI database [FileNotFoundException]: plugins\AuthMe\GeoLite2-Country.mmdb (Не удается найти указанный файл)
+[12-08 18:02:13]: java.io.FileNotFoundException: plugins\AuthMe\GeoLite2-Country.mmdb (Не удается найти указанный файл)
+	at java.io.RandomAccessFile.open0(Native Method)
+	at java.io.RandomAccessFile.open(Unknown Source)
+	at java.io.RandomAccessFile.<init>(Unknown Source)
+	at fr.xephi.authme.libs.com.maxmind.db.BufferHolder.<init>(BufferHolder.java:20)
+	at fr.xephi.authme.libs.com.maxmind.db.Reader.<init>(Reader.java:121)
+	at fr.xephi.authme.service.GeoIpService.startReading(GeoIpService.java:173)
+	at fr.xephi.authme.service.GeoIpService.updateDatabase(GeoIpService.java:144)
+	at org.bukkit.craftbukkit.v1_16_R3.scheduler.CraftTask.run(CraftTask.java:101)
+	at org.bukkit.craftbukkit.v1_16_R3.scheduler.CraftAsyncTask.run(CraftAsyncTask.java:54)
+	at com.destroystokyo.paper.ServerSchedulerReportingWrapper.run(ServerSchedulerReportingWrapper.java:22)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+
+[12-08 18:04:40]: [FINE] Arbuzon logged in 127.0.0.1
+[12-08 22:58:09]: [FINE] Arbuzon logged in 127.0.0.1
+[12-08 23:43:21]: [INFO] AuthMe 5.6.0-beta2-b2453 disabled!
+[12-09 17:44:20]: [INFO] SQLite Setup finished
+[12-09 17:44:20]: [INFO] Hooked into LuckPerms!
+[12-09 17:44:21]: [INFO] AuthMe 5.6.0-beta2 build n.2453 successfully enabled!
+[12-09 17:44:22]: [INFO] Downloading GEO IP database, because the old database is older than 30 days or doesn't exist
+[12-09 17:44:22]: [WARN] No MaxMind credentials found in the configuration file! GeoIp protections will be disabled.
+[12-09 17:44:22]: [INFO] There is no newer GEO IP database uploaded to MaxMind. Using the old one for now.
+[12-09 17:44:22]: [WARN] Could not download GeoLiteAPI database [FileNotFoundException]: plugins\AuthMe\GeoLite2-Country.mmdb (Не удается найти указанный файл)
+[12-09 17:44:22]: java.io.FileNotFoundException: plugins\AuthMe\GeoLite2-Country.mmdb (Не удается найти указанный файл)
+	at java.io.RandomAccessFile.open0(Native Method)
+	at java.io.RandomAccessFile.open(Unknown Source)
+	at java.io.RandomAccessFile.<init>(Unknown Source)
+	at fr.xephi.authme.libs.com.maxmind.db.BufferHolder.<init>(BufferHolder.java:20)
+	at fr.xephi.authme.libs.com.maxmind.db.Reader.<init>(Reader.java:121)
+	at fr.xephi.authme.service.GeoIpService.startReading(GeoIpService.java:173)
+	at fr.xephi.authme.service.GeoIpService.updateDatabase(GeoIpService.java:144)
+	at org.bukkit.craftbukkit.v1_16_R3.scheduler.CraftTask.run(CraftTask.java:101)
+	at org.bukkit.craftbukkit.v1_16_R3.scheduler.CraftAsyncTask.run(CraftAsyncTask.java:54)
+	at com.destroystokyo.paper.ServerSchedulerReportingWrapper.run(ServerSchedulerReportingWrapper.java:22)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+
+[12-09 19:39:29]: [INFO] AuthMe 5.6.0-beta2-b2453 disabled!
+[12-14 16:34:17]: [INFO] SQLite Setup finished
+[12-14 16:34:17]: [INFO] Hooked into LuckPerms!
+[12-14 16:34:17]: [INFO] AuthMe 5.6.0-beta2 build n.2453 successfully enabled!
+[12-14 16:34:19]: [INFO] Downloading GEO IP database, because the old database is older than 30 days or doesn't exist
+[12-14 16:34:20]: [WARN] No MaxMind credentials found in the configuration file! GeoIp protections will be disabled.
+[12-14 16:34:20]: [INFO] There is no newer GEO IP database uploaded to MaxMind. Using the old one for now.
+[12-14 16:34:20]: [WARN] Could not download GeoLiteAPI database [FileNotFoundException]: plugins\AuthMe\GeoLite2-Country.mmdb (Не удается найти указанный файл)
+[12-14 16:34:20]: java.io.FileNotFoundException: plugins\AuthMe\GeoLite2-Country.mmdb (Не удается найти указанный файл)
+	at java.io.RandomAccessFile.open0(Native Method)
+	at java.io.RandomAccessFile.open(Unknown Source)
+	at java.io.RandomAccessFile.<init>(Unknown Source)
+	at fr.xephi.authme.libs.com.maxmind.db.BufferHolder.<init>(BufferHolder.java:20)
+	at fr.xephi.authme.libs.com.maxmind.db.Reader.<init>(Reader.java:121)
+	at fr.xephi.authme.service.GeoIpService.startReading(GeoIpService.java:173)
+	at fr.xephi.authme.service.GeoIpService.updateDatabase(GeoIpService.java:144)
+	at org.bukkit.craftbukkit.v1_16_R3.scheduler.CraftTask.run(CraftTask.java:101)
+	at org.bukkit.craftbukkit.v1_16_R3.scheduler.CraftAsyncTask.run(CraftAsyncTask.java:54)
+	at com.destroystokyo.paper.ServerSchedulerReportingWrapper.run(ServerSchedulerReportingWrapper.java:22)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+
+[12-14 18:49:31]: [FINE] Arbuzon logged in 127.0.0.1
+[12-15 01:08:06]: [INFO] AuthMe 5.6.0-beta2-b2453 disabled!
+[08-02 16:16:18]: [INFO] SQLite Setup finished
+[08-02 16:16:18]: [INFO] Hooked into LuckPerms!
+[08-02 16:16:18]: [INFO] AuthMe 5.6.0-beta2 build n.2453 successfully enabled!
+[08-02 16:16:20]: [INFO] Downloading GEO IP database, because the old database is older than 30 days or doesn't exist
+[08-02 16:16:20]: [WARN] No MaxMind credentials found in the configuration file! GeoIp protections will be disabled.
+[08-02 16:16:20]: [INFO] There is no newer GEO IP database uploaded to MaxMind. Using the old one for now.
+[08-02 16:16:20]: [WARN] Could not download GeoLiteAPI database [FileNotFoundException]: plugins\AuthMe\GeoLite2-Country.mmdb (Не удается найти указанный файл)
+[08-02 16:16:20]: java.io.FileNotFoundException: plugins\AuthMe\GeoLite2-Country.mmdb (Не удается найти указанный файл)
+	at java.io.RandomAccessFile.open0(Native Method)
+	at java.io.RandomAccessFile.open(Unknown Source)
+	at java.io.RandomAccessFile.<init>(Unknown Source)
+	at fr.xephi.authme.libs.com.maxmind.db.BufferHolder.<init>(BufferHolder.java:20)
+	at fr.xephi.authme.libs.com.maxmind.db.Reader.<init>(Reader.java:121)
+	at fr.xephi.authme.service.GeoIpService.startReading(GeoIpService.java:173)
+	at fr.xephi.authme.service.GeoIpService.updateDatabase(GeoIpService.java:144)
+	at org.bukkit.craftbukkit.v1_16_R3.scheduler.CraftTask.run(CraftTask.java:101)
+	at org.bukkit.craftbukkit.v1_16_R3.scheduler.CraftAsyncTask.run(CraftAsyncTask.java:54)
+	at com.destroystokyo.paper.ServerSchedulerReportingWrapper.run(ServerSchedulerReportingWrapper.java:22)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+
+[08-02 16:18:55]: [FINE] Arbuzon used the wrong password
+[08-02 16:20:24]: [INFO] Arbuzon was unregistered by CONSOLE
+[08-02 16:20:42]: [FINE] Arbuzon registered 127.0.0.1
+[08-02 16:20:42]: [FINE] Arbuzon logged in 127.0.0.1
+[08-02 16:37:07]: [INFO] AuthMe 5.6.0-beta2-b2453 disabled!
+[08-02 16:43:56]: [INFO] SQLite Setup finished
+[08-02 16:43:56]: [INFO] Hooked into LuckPerms!
+[08-02 16:43:56]: [INFO] AuthMe 5.6.0-beta2 build n.2453 successfully enabled!
+[08-02 16:43:59]: [INFO] Downloading GEO IP database, because the old database is older than 30 days or doesn't exist
+[08-02 16:43:59]: [WARN] No MaxMind credentials found in the configuration file! GeoIp protections will be disabled.
+[08-02 16:43:59]: [INFO] There is no newer GEO IP database uploaded to MaxMind. Using the old one for now.
+[08-02 16:43:59]: [WARN] Could not download GeoLiteAPI database [FileNotFoundException]: plugins\AuthMe\GeoLite2-Country.mmdb (Не удается найти указанный файл)
+[08-02 16:43:59]: java.io.FileNotFoundException: plugins\AuthMe\GeoLite2-Country.mmdb (Не удается найти указанный файл)
+	at java.io.RandomAccessFile.open0(Native Method)
+	at java.io.RandomAccessFile.open(Unknown Source)
+	at java.io.RandomAccessFile.<init>(Unknown Source)
+	at fr.xephi.authme.libs.com.maxmind.db.BufferHolder.<init>(BufferHolder.java:20)
+	at fr.xephi.authme.libs.com.maxmind.db.Reader.<init>(Reader.java:121)
+	at fr.xephi.authme.service.GeoIpService.startReading(GeoIpService.java:173)
+	at fr.xephi.authme.service.GeoIpService.updateDatabase(GeoIpService.java:144)
+	at org.bukkit.craftbukkit.v1_16_R3.scheduler.CraftTask.run(CraftTask.java:101)
+	at org.bukkit.craftbukkit.v1_16_R3.scheduler.CraftAsyncTask.run(CraftAsyncTask.java:54)
+	at com.destroystokyo.paper.ServerSchedulerReportingWrapper.run(ServerSchedulerReportingWrapper.java:22)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+
+[08-02 16:45:34]: [FINE] Arbuzon logged in 127.0.0.1
+[08-02 17:08:41]: [FINE] Arbuzon logged in 127.0.0.1
+[08-02 17:13:10]: [FINE] Arbuzon logged in 127.0.0.1
+[08-02 17:40:09]: [INFO] AuthMe 5.6.0-beta2-b2453 disabled!
+[08-03 12:23:05]: [INFO] SQLite Setup finished
+[08-03 12:23:05]: [INFO] Hooked into LuckPerms!
+[08-03 12:23:05]: [INFO] AuthMe 5.6.0-beta2 build n.2453 successfully enabled!
+[08-03 12:23:08]: [INFO] Downloading GEO IP database, because the old database is older than 30 days or doesn't exist
+[08-03 12:23:08]: [WARN] No MaxMind credentials found in the configuration file! GeoIp protections will be disabled.
+[08-03 12:23:08]: [INFO] There is no newer GEO IP database uploaded to MaxMind. Using the old one for now.
+[08-03 12:23:08]: [WARN] Could not download GeoLiteAPI database [FileNotFoundException]: plugins\AuthMe\GeoLite2-Country.mmdb (Не удается найти указанный файл)
+[08-03 12:23:08]: java.io.FileNotFoundException: plugins\AuthMe\GeoLite2-Country.mmdb (Не удается найти указанный файл)
+	at java.io.RandomAccessFile.open0(Native Method)
+	at java.io.RandomAccessFile.open(Unknown Source)
+	at java.io.RandomAccessFile.<init>(Unknown Source)
+	at fr.xephi.authme.libs.com.maxmind.db.BufferHolder.<init>(BufferHolder.java:20)
+	at fr.xephi.authme.libs.com.maxmind.db.Reader.<init>(Reader.java:121)
+	at fr.xephi.authme.service.GeoIpService.startReading(GeoIpService.java:173)
+	at fr.xephi.authme.service.GeoIpService.updateDatabase(GeoIpService.java:144)
+	at org.bukkit.craftbukkit.v1_16_R3.scheduler.CraftTask.run(CraftTask.java:101)
+	at org.bukkit.craftbukkit.v1_16_R3.scheduler.CraftAsyncTask.run(CraftAsyncTask.java:54)
+	at com.destroystokyo.paper.ServerSchedulerReportingWrapper.run(ServerSchedulerReportingWrapper.java:22)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+
+[08-05 17:41:20]: [INFO] SQLite Setup finished
+[08-05 17:41:20]: [INFO] Hooked into LuckPerms!
+[08-05 17:41:20]: [INFO] AuthMe 5.6.0-beta2 build n.2453 successfully enabled!
+[08-05 17:41:23]: [INFO] Downloading GEO IP database, because the old database is older than 30 days or doesn't exist
+[08-05 17:41:23]: [WARN] No MaxMind credentials found in the configuration file! GeoIp protections will be disabled.
+[08-05 17:41:23]: [INFO] There is no newer GEO IP database uploaded to MaxMind. Using the old one for now.
+[08-05 17:41:23]: [WARN] Could not download GeoLiteAPI database [FileNotFoundException]: plugins\AuthMe\GeoLite2-Country.mmdb (Не удается найти указанный файл)
+[08-05 17:41:23]: java.io.FileNotFoundException: plugins\AuthMe\GeoLite2-Country.mmdb (Не удается найти указанный файл)
+	at java.io.RandomAccessFile.open0(Native Method)
+	at java.io.RandomAccessFile.open(Unknown Source)
+	at java.io.RandomAccessFile.<init>(Unknown Source)
+	at fr.xephi.authme.libs.com.maxmind.db.BufferHolder.<init>(BufferHolder.java:20)
+	at fr.xephi.authme.libs.com.maxmind.db.Reader.<init>(Reader.java:121)
+	at fr.xephi.authme.service.GeoIpService.startReading(GeoIpService.java:173)
+	at fr.xephi.authme.service.GeoIpService.updateDatabase(GeoIpService.java:144)
+	at org.bukkit.craftbukkit.v1_16_R3.scheduler.CraftTask.run(CraftTask.java:101)
+	at org.bukkit.craftbukkit.v1_16_R3.scheduler.CraftAsyncTask.run(CraftAsyncTask.java:54)
+	at com.destroystokyo.paper.ServerSchedulerReportingWrapper.run(ServerSchedulerReportingWrapper.java:22)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+

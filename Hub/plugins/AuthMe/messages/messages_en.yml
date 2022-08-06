@@ -1,0 +1,156 @@
+# List of global tags:
+# %nl% - Goes to new line.
+# %username% - Replaces the username of the player receiving the message.
+# %displayname% - Replaces the nickname (and colors) of the player receiving the message.
+
+# Registration
+registration:
+  register_request: '§7[§6!§7]§r Зарегистрируйтесь на §eсервере §rс помощью команды: §c/reg §7[§eпароль§7] [§eповтор пароля§7]'
+  command_usage: '§7[§6!§7] §rИспользуйте: §c/reg §7[§eпароль§7] [§eповтор пароля§7] §r!'
+  reg_only: '§4Только зарегистрированные пользователи могут присоединиться к серверу! Посетите http://example.com, чтобы зарегистрироваться!'
+  kicked_admin_registered: 'Администратор только что зарегистрировал вас; Пожалуйста, войдите снова.'
+  success: '§7[§6✉§7]§e Успешная регистрация!'
+  disabled: '§cIn-game registration is disabled!'
+  name_taken: '§7[§6!§7]§cВы уже зарегистрировали этот ник!'
+
+# Password errors on registration
+password:
+  match_error: '§7[§6!§7]§cПароли не совпадают, проверьте их еще раз!'
+  name_in_password: '§7[§6!§7]§cВы не можете использовать свое имя в качестве пароля!'
+  unsafe_password: '§7[§6!§7]§cВыбранный вами пароль небезопасен!'
+  forbidden_characters: '§7[§6!§7]§c Ваш пароль содержит недопустимые символы!§r Разрешенные символы: %valid_chars'
+  wrong_length: '§7[§6!§7]§cВаш пароль слишком короткий, либо слишком длинный, пожалуйста выберите другой!'
+
+# Login
+login:
+  command_usage: '§7[§6!§7]§rИспользуйте: /l §7[§eпароль§7]'
+  wrong_password: '§cНеверный пароль!'
+  success: '§7[§6✉§7]§e Вы успешно вошли!'
+  login_request: '§7[§6!§7]§rАвторизуйтесь с помощью команды: §c/l §7[§eпароль§7]'
+  timeout_error: '§c Время авторизации истекло! §fВы были кикнуты с сервера, попробуйте еще раз.'
+
+# Errors
+error:
+  unregistered_user: '§cЭтот пользователь не зарегистрирован!'
+  denied_command: '§7[§6!§7]§cЧтобы использовать эту команду, вы должны быть авторизованы!'
+  denied_chat: '§7[§6!§7]§cЧтобы общаться в чате, вы должны быть авторизованы!'
+  not_logged_in: '§7[§6!§7]§cВы не авторизованы!'
+  tempban_max_logins: '§cВас временно забанили за то, что вы входили в систему слишком много раз.'
+  max_registration: '§§7[§6!§7]сВы превысили максимальное количество регистраций (% reg_count /% max_acc% reg_names) для вашего подключения!'
+  no_permission: '§§7[§6!§7]§cУ вас нет разрешения на выполнение этого действия!'
+  unexpected_error: '§§7[§6!§7]§cНепредвиденная ошибка, пожалуйста свяжитесь с администрацией!'
+  kick_for_vip: '§aVIP-игрок §rприсоединился к серверу, когда он был заполнен!'
+  logged_in: '§7[§6!§7]§cВы уже авторизовались!'
+  kick_unresolved_hostname: '§cПроизошла ошибка: неразрешенное имя хоста игрока!'
+
+# AntiBot
+antibot:
+  kick_antibot: 'AntiBot protection mode is enabled! You have to wait some minutes before joining the server.'
+  auto_enabled: '§4[AntiBotService] AntiBot enabled due to the huge number of connections!'
+  auto_disabled: '§2[AntiBotService] AntiBot disabled after %m minutes!'
+
+unregister:
+  success: '§cУспешная разрегистрация!'
+  command_usage: '§cИспользуйте: /unregister <password>'
+
+# Other messages
+misc:
+  accounts_owned_self: 'У вас есть% count аккаунтов:'
+  accounts_owned_other: 'У игрока %name есть учетные записи %count:'
+  account_not_activated: '§7[§6!§7]§cВаша учетная запись еще не активирована, проверьте свою электронную почту!'
+  password_changed: '§7[§6✉§7]§aПароль успешно сменен!'
+  logout: '§7[§6✉§7]§aВыход успешно выполнен!!'
+  reload: '§aКонфигурация и база данных были перезагружены правильно!'
+  usage_change_password: '§7[§6!§7]§rИспользуйте: §c/changepassword §7[§eстарый пароль§7] [§eновый пароль§7]'
+
+# Session messages
+session:
+  invalid_session: '§cВаш IP был изменен, а данные вашей сессии истекли!'
+  valid_session: '§cВы вошли в систему из-за повторного подключения к сеансу.'
+
+# Error messages when joining
+on_join_validation:
+  name_length: '§cВаш ник слишком короткий или слишком длинный!'
+  characters_in_name: '§cВаш ник содержит неразрешенные символы. Список разрешенных символов: %valid_chars'
+  country_banned: '§cПодключения из вашей страны забанены на этом сервере!'
+  not_owner_error: 'Вы не являетесь владельцем этой учетной записи. Пожалуйста, выберите другое имя!'
+  kick_full_server: '§c Сервер переполнен, попробуйте подключится позже!'
+  same_nick_online: '§c Игрок с таким ником уже играет на сервере!'
+  invalid_name_case: 'Вы должны присоединиться, используя имя пользователя %valid, not %invalid.'
+  same_ip_online: '§c Игрок с таким IP уже играет на сервере'
+  quick_command: '§cВы использовали команду слишком быстро!Пожалуйста, присоединитесь к серверу снова и подождите, прежде чем использовать любую команду.'
+
+# Email
+email:
+  usage_email_add: '§7[§6!§7] §rИспользуйте: §c/email add §7[§eПочта§7] [§eПодтверждение почты§7] §r!'
+  usage_email_change: '§7[§6!§7] §rИспользуйте: §c/email change §7[§eстарая почта§7] [§eновая почта§7] §r!'
+  new_email_invalid: '§7[§6!§7]§cНеверный новый адрес электронной почты, попробуйте еще раз!'
+  old_email_invalid: '§7[§6!§7]§cНеверный старый адрес электронной почты, попробуйте еще раз!'
+  invalid: '§7[§6!§7]§cНеверный адрес электронной почты, попробуйте еще раз!'
+  added: '§7[§6✉§7]§aЭлектронная почта усешно привязана к вашему аккаунту!'
+  request_confirmation: '§§7[§6!§7]§cПожалуйста подтвердите адрес электронной почты!'
+  changed: '§7[§6✉§7]§aАдресс электронной почты успешно сменен!'
+  email_show: '§7[§6✉§7]§rАдрес привязанной электронной почты: §e%email'
+  incomplete_settings: 'Ошибка: не все необходимые настройки установлены для отправки писем. Пожалуйста, свяжитесь с администратором.'
+  already_used: '§7[§6✉§7]§сЭтот адрес уже занят!'
+  send_failure: '§7[§6!§7]&cЭлектронное письмо не может быть отправлено. Обратитесь к администратору.'
+  no_email_for_account: '§7[§6!§7]§cК вашему аккаунту не привязана электронная почта.'
+  add_email_request: '§7[§6!§7]§rПривяжите адрес вашей &eэлектронной почты &rк аккаунту с помощью команды: &c/email add §7[§eпочта§7] §7[§eподтверждение почты§7]'
+  change_password_expired: '&cВы больше не можете изменить свой пароль с помощью этой команды.'
+  email_cooldown_error: '§7[§6!§7]§cЭлектронное письмо уже было отправлено. Вы должны подождать %time, прежде чем сможете отправить его еще раз.'
+  add_not_allowed: '§7[§6!§7]§cДобавление электронной почты не было разрешено.'
+  change_not_allowed: '§7[§6!§7]§cИзменение адреса электронной почты не разрешено.'
+
+# Password recovery by email
+recovery:
+  forgot_password_hint: '§7[§6!§7]§r Забыли пароль?§eИспользуйте команду§r: §c/email recovery §7[§eваш email§7]'
+  command_usage: '§7[§6!§7]§r Испульзуйте!: §c/email recovery §7[§eваш email§7]'
+  email_sent: '§7[§6✉§7]§rПисьмо для восстановления успешно отправлено! Пожалуйста, проверьте свою почту!'
+  code:
+    code_sent: '§7[§6✉§7]&rКод восстановления для сброса пароля был отправлен на вашу электронную почту.'
+    incorrect: '§7[§6!§7]&rКод восстановления неверный! У вас осталось %count попыток.'
+    tries_exceeded: '§7[§6!§7]&rВы превысили максимальное количество попыток ввести код восстановления. '
+    correct: '§7[§6✉§7]&rКод восстановления введен правильно!'
+    change_password: 'Пожалуйста, используйте команду: &c/email setpassword §7[§eновый пароль§7],&r чтобы немедленно изменить свой пароль..'
+
+# Captcha
+captcha:
+  usage_captcha: '§3To log in you have to solve a captcha code, please use the command: /captcha %captcha_code'
+  wrong_captcha: '§cWrong captcha, please type "/captcha %captcha_code" into the chat!'
+  valid_captcha: '§2Captcha code solved correctly!'
+  captcha_for_registration: 'To register you have to solve a captcha first, please use the command: /captcha %captcha_code'
+  register_captcha_valid: '§2Valid captcha! You may now register with /register'
+
+# Verification code
+verification:
+  code_required: '§7[§6!§7]§rЭта команда конфиденциальна и требует подтверждения по электронной почте! Проверьте свой почтовый ящик и следуйте инструкциям по электронной почте..'
+  command_usage: '§7[§6!§7]§rИспользуйте: &c/verification §7[§eкод§7]'
+  incorrect_code: '§7[§6!§7]§cНеверный код! &rВведите "&c/verification §7[§eкод§7]" &rв чат, используя код, полученный по электронной почте'
+  success: '§7[§6✉§7]&rВаша личность подтверждена! Теперь вы можете выполнять все команды в текущем сеансе!'
+  already_verified: '§7[§6✉§7]§rВы уже можете выполнить каждую важную команду в текущем сеансе!'
+  code_expired: '§7[§6!§7]§cСрок действия вашего кода истек!'
+  email_needed: '§7[§6!§7]§rЧтобы подтвердить свою личность, вам необходимо связать адрес электронной почты со своей учетной записью!'
+
+# Two-factor authentication
+two_factor:
+  code_created: '§2Your secret code is %code. You can scan it from here %url'
+  confirmation_required: 'Please confirm your code with /2fa confirm <code>'
+  code_required: 'Please submit your two-factor authentication code with /2fa code <code>'
+  already_enabled: 'Two-factor authentication is already enabled for your account!'
+  enable_error_no_code: 'No 2fa key has been generated for you or it has expired. Please run /2fa add'
+  enable_success: 'Successfully enabled two-factor authentication for your account'
+  enable_error_wrong_code: 'Wrong code or code has expired. Please run /2fa add'
+  not_enabled_error: 'Two-factor authentication is not enabled for your account. Run /2fa add'
+  removed_success: 'Successfully removed two-factor auth from your account'
+  invalid_code: 'Invalid code!'
+
+# Time units
+time:
+  second: 'сек'
+  seconds: 'сек'
+  minute: 'мин'
+  minutes: 'мин'
+  hour: 'ч'
+  hours: 'ч'
+  day: 'д'
+  days: 'д'

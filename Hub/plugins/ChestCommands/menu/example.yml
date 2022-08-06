@@ -1,0 +1,55 @@
+######################
+#+                  +#
+#   MENU SETTINGS    #
+#+                  +#
+######################
+
+menu-settings:
+
+  # REQUIRED
+  # Appears as the title of the menu.
+  name: '   &r▼ Информация о сервере ▼'
+
+  # REQUIRED
+  # The number of rows in the menu.
+  rows: 1
+
+  # OPTIONAL
+  # Set which commands a player can execute to open the menu.
+  commands:
+  - 'menu'
+
+  # OPTIONAL
+  # How frequently the menu will be refreshed, in seconds.
+  # Useful if you have placeholders in icon descriptions.
+  auto-refresh: 5
+
+  # OPTIONAL
+  # These actions will be executed when the menu is opened.
+  # Supports all the icon action types.
+  open-actions:
+
+  # OPTIONAL
+  # The menu will open only when right-clicking with a compass.
+  open-with-item:
+    material: compass
+    left-click: false
+    right-click: true
+
+
+######################
+#+                  +#
+#       ICONS        #
+#+                  +#
+######################
+
+
+tp-to-sever1-command:
+  MATERIAL: diamond
+  POSITION-X: 5
+  POSITION-Y: 1
+  NAME: 'Донат услуги §e§lMagma§c§lCube'
+  LORE:
+    - 'Нажми &eЛКМ'
+  ACTIONS:
+    - 'don'
