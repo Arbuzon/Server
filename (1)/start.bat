@@ -1,2 +1,1 @@
-java -Xms1G -Xmx1G -jar spigot-1.16.5.jar nogui
-pause
+java -Xmx1G -jar Paper-1.16.5.jar
