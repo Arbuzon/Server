@@ -8,7 +8,7 @@
 
 #
 # Enables Checking for update.
-check-updates: true
+check-updates: false
 #
 # Available languages EN, PT, BG, RO, NO, CH
 lang: en
@@ -23,4 +23,4 @@ shift-confirm: true
 cooldown-time-display: MEDIUM
 #
 # Disables citizens check on startup
-citizens-check: true
+citizens-check: false

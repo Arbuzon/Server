@@ -43,7 +43,7 @@ Groups:
       - "This is an example of per-group header/footer"
     footer:
       - "applied to a group"
-      
+
   #default settings for all groups, all groups will take properties from this section unless player's primary group overrides a specific setting
   _OTHER_:
     tabprefix: "%vault-prefix%"
@@ -67,10 +67,10 @@ classic-vanilla-belowname:
 
   #enabling the feature
   enabled: true
-  
+
   #number or numeric placeholder, supports per-player placeholders
   number: "%health%"
-  
+
   #text after number, must be same on all players
   text: "Health"
 
@@ -80,7 +80,7 @@ enable-collision: true
 #using the opposite of the setting above for worlds
 revert-collision-rule-in-worlds:
   - revertedworld
-  
+
 #preventing players with spectator gamemode from being moved to the bottom of tablist with transparent name
 do-not-move-spectators: false
 
@@ -93,15 +93,15 @@ unlimited-nametag-prefix-suffix-mode:
 
   #enabling the feature
   enabled: false
-  
+
   #enabling will result in NPCs ignoring nametag prefix/suffix/visibility to prevent NPCs with names of online players from being invisible
   modify-npc-names: false
-  
+
   #using a feature introduced in 1.8.1 to make hitbox zero so you can't cry it affects pvp despite hit redirection
   #1.8.0 clients will see wild things
   #automatically enabled for 1.9+
   use-marker-tag-for-1-8-x-clients: false
-  
+
   #disabling the feature for players riding boats to prevent massive desync
   disable-on-boats: true
 
@@ -115,7 +115,7 @@ per-world-settings:
       Owner:
         tabprefix: "&0&l[&a&lOwner&0&l] &a"
         tagprefix: "&2&lOwner &a"
-        
+
   #separating multiple worlds with "-"
   world2-world3:
     header:
@@ -126,21 +126,21 @@ placeholders:
   #output of %afk%
   afk-yes: " &4*&4&lAFK&4*&r"
   afk-no: ""
-  
+
   #%date%
   date-format: "dd.MM.yyyy"
-  
+
   #%time%
   time-format: "[HH:mm:ss / h:mm a]"
-  
+
   #in hours, in case of wrong timezone
   time-offset: 0
-  
+
   #don't forget color codes
   remove-strings:
     - "[]"
     - "< >"
-    
+
 #aliases for %rank%, this is not the place where group prefix is defined!
 rank-aliases:
   Admin: "&4&lADMIN"
@@ -151,7 +151,7 @@ rank-aliases:
   Titan: "&c&lTITAN"
   Youtuber: "&c&lYOUTUBE"
   _OTHER_: "&7No Rank"
-  
+
 disable-features-in-worlds:
   header-footer:
     - disabledworld
@@ -177,21 +177,21 @@ placeholderapi-refresh-intervals:
     "%vault_prefix%": 1000
   relational:
     "%rel_factionsuuid_relation_color%": 500
-    
+
 #different playerlist in different worlds
 per-world-playerlist:
 
   #to enable the feature
   enabled: false
-  
+
   #allows players with tab.bypass permission to see everyone in tablist despite this option enabled
   allow-bypass-permission: false
-  
+
   #players in these worlds will see everyone despite the feature enabled
   ignore-effect-in-worlds:
     - ignoredworld
     - build
-    
+
   #groups of worlds to share playerlist
   shared-playerlist-world-groups:
     #group name, can be anything
@@ -218,6 +218,6 @@ primary-group-finding-list:
   - Admin
   - Helper
   - default
-  
+
 #if none of the above fits your needs, you can enable this to give groups using tab.group.<group name from the list above> permission
 assign-groups-by-permissions: false

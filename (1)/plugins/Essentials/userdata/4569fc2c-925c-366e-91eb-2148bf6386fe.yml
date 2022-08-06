@@ -1,0 +1,47 @@
+teleportenabled: true
+teleportauto: false
+godmode: false
+muted: false
+jailed: false
+ip-address: 127.0.0.1
+afk: false
+socialspy: false
+npc: false
+powertoolsenabled: true
+accepting-pay: true
+baltop-exempt: false
+timestamps:
+  lastteleport: 1659807963684
+  lastheal: 0
+  mute: 0
+  jail: 0
+  onlinejail: 0
+  logout: 1659813725649
+  login: 1659812169386
+money: '585.8700000000000005'
+last-account-name: Arbuzon
+homes:
+  home:
+    world: 66d3fc3a-1cc3-4ea1-ac7c-053ca7b8e305
+    world-name: world
+    x: 909.7514961834229
+    y: 67.0
+    z: 3868.4460130956713
+    yaw: -39.94880294799805
+    pitch: 55.64997482299805
+lastlocation:
+  world: 66d3fc3a-1cc3-4ea1-ac7c-053ca7b8e305
+  world-name: world
+  x: 666.3997694587068
+  y: 81.90960423019283
+  z: 3595.4506830903106
+  yaw: -297.49847412109375
+  pitch: 53.250038146972656
+logoutlocation:
+  world: 66d3fc3a-1cc3-4ea1-ac7c-053ca7b8e305
+  world-name: world
+  x: 172.54626776464704
+  y: 64.0
+  z: 215.63900886519295
+  yaw: -354.35601806640625
+  pitch: 18.750518798828125

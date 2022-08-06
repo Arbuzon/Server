@@ -20,13 +20,13 @@ npc:
         experienceCost: -1.0
         hideErrorMessages: false
       location:
-        bodyYaw: 93.07521
+        bodyYaw: -93.50493
         world: world
         x: '89.4384'
         y: '121.0'
         z: '167.5118'
-        yaw: '102.5244'
-        pitch: '11.8128'
+        yaw: '-103.5049'
+        pitch: '-10.6937'
       sneak:
         sneaking: false
       type: PLAYER
@@ -50,7 +50,7 @@ npc:
         randomYawRange:
           '0': 0.0
           '1': 360.0
-    traitnames: hologramtrait,lookclose,spawned,scoreboardtrait,location,skintrait,equipment,inventory,mounttrait,commandtrait,type,sneak,owner
+    traitnames: inventory,skintrait,location,hologramtrait,sneak,commandtrait,owner,mounttrait,lookclose,type,scoreboardtrait,spawned,equipment
     navigator:
       speedmodifier: '1.0'
       avoidwater: false
@@ -76,7 +76,7 @@ npc:
         z: '184.5278'
         yaw: '1.1029'
         pitch: '46.3499'
-    traitnames: mounttrait,type,scoreboardtrait,sneak,spawned,location,equipment,skintrait,inventory,owner
+    traitnames: mounttrait,inventory,skintrait,type,location,scoreboardtrait,sneak,spawned,equipment,owner
     navigator:
       speedmodifier: '1.0'
       avoidwater: false

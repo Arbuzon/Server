@@ -1,25 +1,92 @@
-[17:40:05] [main/INFO]: Using standard Java JCE cipher.
-[17:40:05] [main/INFO]: Using standard Java compressor.
-[17:40:05] [main/INFO]: Enabled Waterfall version git:Waterfall-Bootstrap:1.17-R0.1-SNAPSHOT:aba3aff:454
-[17:40:05] [main/INFO]: Discovered module: ModuleSpec(name=cmd_alert, file=modules\cmd_alert.jar, provider=JenkinsModuleSource())
-[17:40:05] [main/INFO]: Discovered module: ModuleSpec(name=cmd_find, file=modules\cmd_find.jar, provider=JenkinsModuleSource())
-[17:40:05] [main/INFO]: Discovered module: ModuleSpec(name=cmd_list, file=modules\cmd_list.jar, provider=JenkinsModuleSource())
-[17:40:05] [main/INFO]: Discovered module: ModuleSpec(name=cmd_send, file=modules\cmd_send.jar, provider=JenkinsModuleSource())
-[17:40:05] [main/INFO]: Discovered module: ModuleSpec(name=cmd_server, file=modules\cmd_server.jar, provider=JenkinsModuleSource())
-[17:40:05] [main/INFO]: Discovered module: ModuleSpec(name=reconnect_yaml, file=modules\reconnect_yaml.jar, provider=JenkinsModuleSource())
-[17:40:05] [main/INFO]: Loaded plugin reconnect_yaml version git:reconnect_yaml:1.17-R0.1-SNAPSHOT:aba3aff:454 by WaterfallMC
-[17:40:05] [main/INFO]: Loaded plugin cmd_find version git:cmd_find:1.17-R0.1-SNAPSHOT:aba3aff:454 by WaterfallMC
-[17:40:05] [main/INFO]: Loaded plugin cmd_server version git:cmd_server:1.17-R0.1-SNAPSHOT:aba3aff:454 by WaterfallMC
-[17:40:05] [main/INFO]: Loaded plugin cmd_alert version git:cmd_alert:1.17-R0.1-SNAPSHOT:aba3aff:454 by WaterfallMC
-[17:40:05] [main/INFO]: Loaded plugin BungeeGuard version 1.2-SNAPSHOT by Luck
-[17:40:05] [main/INFO]: Loaded plugin cmd_send version git:cmd_send:1.17-R0.1-SNAPSHOT:aba3aff:454 by WaterfallMC
-[17:40:05] [main/INFO]: Loaded plugin cmd_list version git:cmd_list:1.17-R0.1-SNAPSHOT:aba3aff:454 by WaterfallMC
-[17:40:06] [main/WARN]: Forced host server pvp is not defined
-[17:40:06] [main/INFO]: Enabled plugin reconnect_yaml version git:reconnect_yaml:1.17-R0.1-SNAPSHOT:aba3aff:454 by WaterfallMC
-[17:40:06] [main/INFO]: Enabled plugin cmd_find version git:cmd_find:1.17-R0.1-SNAPSHOT:aba3aff:454 by WaterfallMC
-[17:40:06] [main/INFO]: Enabled plugin cmd_server version git:cmd_server:1.17-R0.1-SNAPSHOT:aba3aff:454 by WaterfallMC
-[17:40:06] [main/INFO]: Enabled plugin cmd_alert version git:cmd_alert:1.17-R0.1-SNAPSHOT:aba3aff:454 by WaterfallMC
-[17:40:06] [main/INFO]: Enabled plugin BungeeGuard version 1.2-SNAPSHOT by Luck
-[17:40:06] [main/INFO]: Enabled plugin cmd_send version git:cmd_send:1.17-R0.1-SNAPSHOT:aba3aff:454 by WaterfallMC
-[17:40:06] [main/INFO]: Enabled plugin cmd_list version git:cmd_list:1.17-R0.1-SNAPSHOT:aba3aff:454 by WaterfallMC
-[17:40:07] [Netty Boss IO Thread #0/INFO]: Listening on /0.0.0.0:25565
+[00:40:30] [main/INFO]: Using standard Java JCE cipher.
+[00:40:30] [main/INFO]: Using standard Java compressor.
+[00:40:30] [main/INFO]: Enabled Waterfall version git:Waterfall-Bootstrap:1.17-R0.1-SNAPSHOT:aba3aff:454
+[00:40:30] [main/INFO]: Discovered module: ModuleSpec(name=cmd_alert, file=modules\cmd_alert.jar, provider=JenkinsModuleSource())
+[00:40:30] [main/INFO]: Discovered module: ModuleSpec(name=cmd_find, file=modules\cmd_find.jar, provider=JenkinsModuleSource())
+[00:40:30] [main/INFO]: Discovered module: ModuleSpec(name=cmd_list, file=modules\cmd_list.jar, provider=JenkinsModuleSource())
+[00:40:30] [main/INFO]: Discovered module: ModuleSpec(name=cmd_send, file=modules\cmd_send.jar, provider=JenkinsModuleSource())
+[00:40:30] [main/INFO]: Discovered module: ModuleSpec(name=cmd_server, file=modules\cmd_server.jar, provider=JenkinsModuleSource())
+[00:40:30] [main/INFO]: Discovered module: ModuleSpec(name=reconnect_yaml, file=modules\reconnect_yaml.jar, provider=JenkinsModuleSource())
+[00:40:30] [main/INFO]: Loaded plugin reconnect_yaml version git:reconnect_yaml:1.17-R0.1-SNAPSHOT:aba3aff:454 by WaterfallMC
+[00:40:30] [main/INFO]: Loaded plugin cmd_find version git:cmd_find:1.17-R0.1-SNAPSHOT:aba3aff:454 by WaterfallMC
+[00:40:30] [main/INFO]: Loaded plugin cmd_server version git:cmd_server:1.17-R0.1-SNAPSHOT:aba3aff:454 by WaterfallMC
+[00:40:30] [main/INFO]: Loaded plugin cmd_alert version git:cmd_alert:1.17-R0.1-SNAPSHOT:aba3aff:454 by WaterfallMC
+[00:40:30] [main/INFO]: Loaded plugin BungeeGuard version 1.2-SNAPSHOT by Luck
+[00:40:30] [main/INFO]: Loaded plugin cmd_send version git:cmd_send:1.17-R0.1-SNAPSHOT:aba3aff:454 by WaterfallMC
+[00:40:30] [main/INFO]: Loaded plugin cmd_list version git:cmd_list:1.17-R0.1-SNAPSHOT:aba3aff:454 by WaterfallMC
+[00:40:30] [main/WARN]: Forced host server pvp is not defined
+[00:40:30] [main/INFO]: Enabled plugin reconnect_yaml version git:reconnect_yaml:1.17-R0.1-SNAPSHOT:aba3aff:454 by WaterfallMC
+[00:40:30] [main/INFO]: Enabled plugin cmd_find version git:cmd_find:1.17-R0.1-SNAPSHOT:aba3aff:454 by WaterfallMC
+[00:40:30] [main/INFO]: Enabled plugin cmd_server version git:cmd_server:1.17-R0.1-SNAPSHOT:aba3aff:454 by WaterfallMC
+[00:40:30] [main/INFO]: Enabled plugin cmd_alert version git:cmd_alert:1.17-R0.1-SNAPSHOT:aba3aff:454 by WaterfallMC
+[00:40:30] [main/INFO]: Enabled plugin BungeeGuard version 1.2-SNAPSHOT by Luck
+[00:40:30] [main/INFO]: Enabled plugin cmd_send version git:cmd_send:1.17-R0.1-SNAPSHOT:aba3aff:454 by WaterfallMC
+[00:40:30] [main/INFO]: Enabled plugin cmd_list version git:cmd_list:1.17-R0.1-SNAPSHOT:aba3aff:454 by WaterfallMC
+[00:40:30] [Netty Boss IO Thread #0/INFO]: Listening on /0.0.0.0:25565
+[00:45:06] [Netty Worker IO Thread #0/WARN]: Event ConnectionInitEvent(remoteAddress=/192.168.31.1:53479, listener=ListenerInfo(socketAddress=/0.0.0.0:25565, motd=MelonWorld, maxPlayers=25, tabListSize=60, serverPriority=[Hub], forceDefault=true, forcedHosts={pvp.md-5.net=pvp}, tabListType=GLOBAL_PING, setLocalAddress=true, pingPassthrough=false, queryPort=25565, queryEnabled=false, proxyProtocol=false), isCancelled=false) took 420ms to process!
+[00:45:06] [Netty Worker IO Thread #0/INFO]: [/192.168.31.1:53479] <-> InitialHandler has pinged
+[00:45:10] [Netty Worker IO Thread #1/INFO]: [/192.168.31.1:53486] <-> InitialHandler has connected
+[00:45:11] [Netty Worker IO Thread #1/INFO]: [Arbuzon|/192.168.31.1:53486] <-> ServerConnector [Hub] has connected
+[00:45:41] [Netty Worker IO Thread #1/INFO]: [Arbuzon|/192.168.31.1:53486] <-> ServerConnector [Server1] has connected
+[00:45:42] [Netty Worker IO Thread #1/INFO]: [/192.168.31.1:53486|Arbuzon] <-> DownstreamBridge <-> [Hub] has disconnected
+[00:58:48] [Netty Worker IO Thread #1/INFO]: [/192.168.31.1:53486|Arbuzon] -> UpstreamBridge has disconnected
+[00:58:48] [Netty Worker IO Thread #1/INFO]: [/192.168.31.1:53486|Arbuzon] <-> DownstreamBridge <-> [Server1] has disconnected
+[00:58:51] [Netty Worker IO Thread #2/INFO]: [/192.168.31.1:53634] <-> InitialHandler has pinged
+[01:17:02] [Netty Worker IO Thread #3/INFO]: [/192.168.31.1:52981] <-> InitialHandler has connected
+[01:17:02] [Netty Worker IO Thread #3/INFO]: [Arbuzon|/192.168.31.1:52981] <-> ServerConnector [Hub] has connected
+[01:17:25] [Netty Worker IO Thread #3/INFO]: [Arbuzon|/192.168.31.1:52981] <-> ServerConnector [Server1] has connected
+[01:17:25] [Netty Worker IO Thread #3/INFO]: [/192.168.31.1:52981|Arbuzon] <-> DownstreamBridge <-> [Hub] has disconnected
+[01:40:22] [Netty Worker IO Thread #3/INFO]: [Arbuzon] disconnected with: Server closed
+[01:40:22] [Netty Worker IO Thread #3/INFO]: [/192.168.31.1:52981|Arbuzon] -> UpstreamBridge has disconnected
+[01:40:22] [Netty Worker IO Thread #3/INFO]: [/192.168.31.1:52981|Arbuzon] <-> DownstreamBridge <-> [Server1] has disconnected
+[01:43:13] [Netty Worker IO Thread #4/INFO]: [/192.168.31.1:53157] <-> InitialHandler has connected
+[01:43:13] [Netty Worker IO Thread #4/INFO]: [Arbuzon|/192.168.31.1:53157] <-> ServerConnector [Hub] has connected
+[01:43:30] [Netty Worker IO Thread #4/INFO]: [/192.168.31.1:53157|Arbuzon] -> UpstreamBridge has disconnected
+[01:43:30] [Netty Worker IO Thread #4/INFO]: [/192.168.31.1:53157|Arbuzon] <-> DownstreamBridge <-> [Hub] has disconnected
+[01:43:32] [Netty Worker IO Thread #5/INFO]: [/192.168.31.1:53177] <-> InitialHandler has pinged
+[01:44:31] [Netty Worker IO Thread #6/INFO]: [/192.168.31.1:53181] <-> InitialHandler has connected
+[01:44:31] [Netty Worker IO Thread #6/INFO]: [Arbuzon|/192.168.31.1:53181] <-> ServerConnector [Hub] has connected
+[01:45:52] [Netty Worker IO Thread #6/INFO]: [/192.168.31.1:53181|Arbuzon] -> UpstreamBridge has disconnected
+[01:45:52] [Netty Worker IO Thread #6/INFO]: [/192.168.31.1:53181|Arbuzon] <-> DownstreamBridge <-> [Hub] has disconnected
+[01:45:53] [Netty Worker IO Thread #7/INFO]: [/192.168.31.1:53206] <-> InitialHandler has pinged
+[01:45:54] [Netty Worker IO Thread #0/INFO]: [/192.168.31.1:53207] <-> InitialHandler has connected
+[01:45:54] [Netty Worker IO Thread #0/INFO]: [Arbuzon|/192.168.31.1:53207] <-> ServerConnector [Hub] has connected
+[01:46:19] [Netty Worker IO Thread #0/INFO]: [/192.168.31.1:53207|Arbuzon] -> UpstreamBridge has disconnected
+[01:46:19] [Netty Worker IO Thread #0/INFO]: [/192.168.31.1:53207|Arbuzon] <-> DownstreamBridge <-> [Hub] has disconnected
+[01:46:20] [Netty Worker IO Thread #1/INFO]: [/192.168.31.1:53225] <-> InitialHandler has pinged
+[01:46:21] [Netty Worker IO Thread #2/INFO]: [/192.168.31.1:53226] <-> InitialHandler has connected
+[01:46:21] [Netty Worker IO Thread #2/INFO]: [Arbuzon|/192.168.31.1:53226] <-> ServerConnector [Hub] has connected
+[01:46:34] [Netty Worker IO Thread #2/INFO]: [/192.168.31.1:53226|Arbuzon] -> UpstreamBridge has disconnected
+[01:46:34] [Netty Worker IO Thread #2/INFO]: [/192.168.31.1:53226|Arbuzon] <-> DownstreamBridge <-> [Hub] has disconnected
+[01:46:36] [Netty Worker IO Thread #3/INFO]: [/192.168.31.1:53242] <-> InitialHandler has pinged
+[01:47:17] [Netty Worker IO Thread #4/INFO]: [/192.168.31.1:53255] <-> InitialHandler has connected
+[01:47:17] [Netty Worker IO Thread #4/INFO]: [Arbuzon|/192.168.31.1:53255] <-> ServerConnector [Hub] has connected
+[01:47:27] [Netty Worker IO Thread #4/INFO]: [/192.168.31.1:53255|Arbuzon] -> UpstreamBridge has disconnected
+[01:47:27] [Netty Worker IO Thread #4/INFO]: [/192.168.31.1:53255|Arbuzon] <-> DownstreamBridge <-> [Hub] has disconnected
+[01:47:28] [Netty Worker IO Thread #5/INFO]: [/192.168.31.1:53271] <-> InitialHandler has pinged
+[01:48:37] [Netty Worker IO Thread #6/INFO]: [/192.168.31.1:53289] <-> InitialHandler has connected
+[01:48:37] [Netty Worker IO Thread #6/INFO]: [Arbuzon|/192.168.31.1:53289] <-> ServerConnector [Hub] has connected
+[01:48:44] [Netty Worker IO Thread #6/INFO]: [/192.168.31.1:53289|Arbuzon] -> UpstreamBridge has disconnected
+[01:48:44] [Netty Worker IO Thread #6/INFO]: [/192.168.31.1:53289|Arbuzon] <-> DownstreamBridge <-> [Hub] has disconnected
+[01:48:45] [Netty Worker IO Thread #7/INFO]: [/192.168.31.1:53303] <-> InitialHandler has pinged
+[01:49:44] [Netty Worker IO Thread #0/INFO]: [/192.168.31.1:53334] <-> InitialHandler has pinged
+[01:49:45] [Netty Worker IO Thread #1/INFO]: [/192.168.31.1:53336] <-> InitialHandler has connected
+[01:49:45] [Netty Worker IO Thread #1/INFO]: [Arbuzon|/192.168.31.1:53336] <-> ServerConnector [Hub] has connected
+[01:50:39] [Netty Worker IO Thread #1/INFO]: [Arbuzon|/192.168.31.1:53336] <-> ServerConnector [Server1] has connected
+[01:50:39] [Netty Worker IO Thread #1/INFO]: [/192.168.31.1:53336|Arbuzon] <-> DownstreamBridge <-> [Hub] has disconnected
+[01:55:29] [Netty Worker IO Thread #1/INFO]: [/192.168.31.1:53336|Arbuzon] -> UpstreamBridge has disconnected
+[01:55:29] [Netty Worker IO Thread #1/INFO]: [/192.168.31.1:53336|Arbuzon] <-> DownstreamBridge <-> [Server1] has disconnected
+[01:55:31] [Netty Worker IO Thread #2/INFO]: [/192.168.31.1:53385] <-> InitialHandler has pinged
+[01:55:31] [Netty Worker IO Thread #3/INFO]: [/192.168.31.1:53388] <-> InitialHandler has connected
+[01:55:31] [Netty Worker IO Thread #3/INFO]: [Arbuzon|/192.168.31.1:53388] <-> ServerConnector [Hub] has connected
+[01:56:08] [Netty Worker IO Thread #3/INFO]: [Arbuzon|/192.168.31.1:53388] <-> ServerConnector [Server1] has connected
+[01:56:08] [Netty Worker IO Thread #3/INFO]: [/192.168.31.1:53388|Arbuzon] <-> DownstreamBridge <-> [Hub] has disconnected
+[02:22:05] [Netty Worker IO Thread #3/INFO]: [/192.168.31.1:53388|Arbuzon] -> UpstreamBridge has disconnected
+[02:22:05] [Netty Worker IO Thread #3/INFO]: [/192.168.31.1:53388|Arbuzon] <-> DownstreamBridge <-> [Server1] has disconnected
+[02:22:07] [Netty Worker IO Thread #4/INFO]: [/192.168.31.1:53697] <-> InitialHandler has pinged
+[02:22:16] [Shutdown Thread/INFO]: Closing listener [id: 0xc80fdbe4, L:/0:0:0:0:0:0:0:0:25565]
+[02:22:16] [Shutdown Thread/INFO]: Closing pending connections
+[02:22:16] [Shutdown Thread/INFO]: Disconnecting 0 connections
+[02:22:17] [Shutdown Thread/INFO]: Disabling plugins
+[02:22:17] [Shutdown Thread/INFO]: Closing IO threads
+[02:22:19] [Shutdown Thread/INFO]: Thank you and goodbye
